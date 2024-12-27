@@ -1,0 +1,28 @@
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::aa40:41ff:fe1c:8624%wlan1-mesh () port 0 AF_INET6 : demo
+Interim result:    6.04 10^6bits/s over 1.085 seconds ending at 1735321833.899
+Interim result:   13.98 10^6bits/s over 1.012 seconds ending at 1735321834.912
+Interim result:   59.24 10^6bits/s over 1.000 seconds ending at 1735321835.912
+Interim result:   53.33 10^6bits/s over 1.108 seconds ending at 1735321837.020
+Interim result:   77.22 10^6bits/s over 1.003 seconds ending at 1735321838.023
+Interim result:   17.79 10^6bits/s over 4.339 seconds ending at 1735321842.362
+Interim result:   25.26 10^6bits/s over 3.306 seconds ending at 1735321845.668
+Interim result:   27.39 10^6bits/s over 1.019 seconds ending at 1735321846.687
+Interim result:   22.63 10^6bits/s over 1.205 seconds ending at 1735321847.891
+Interim result:   25.21 10^6bits/s over 2.043 seconds ending at 1735321849.935
+Interim result:   48.50 10^6bits/s over 1.197 seconds ending at 1735321851.132
+Interim result:   58.71 10^6bits/s over 1.000 seconds ending at 1735321852.132
+Interim result:   44.99 10^6bits/s over 1.687 seconds ending at 1735321853.819
+Interim result:   38.74 10^6bits/s over 1.164 seconds ending at 1735321854.983
+Interim result:   54.51 10^6bits/s over 1.022 seconds ending at 1735321856.005
+Interim result:   33.36 10^6bits/s over 1.635 seconds ending at 1735321857.639
+Interim result:   37.31 10^6bits/s over 1.166 seconds ending at 1735321858.806
+Interim result:   34.15 10^6bits/s over 1.094 seconds ending at 1735321859.899
+Interim result:   29.25 10^6bits/s over 1.165 seconds ending at 1735321861.065
+Interim result:   61.87 10^6bits/s over 1.172 seconds ending at 1735321862.236
+Interim result:   72.06 10^6bits/s over 0.578 seconds ending at 1735321862.815
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.11        35.23   46.13    35.44    107.255  82.391 

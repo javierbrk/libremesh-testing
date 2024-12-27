@@ -1,0 +1,194 @@
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	20 ms
+	rx bytes:	177825
+	rx packets:	1266
+	tx bytes:	8330
+	tx packets:	45
+	tx retries:	7
+	tx failed:	0
+	rx drop misc:	1
+	signal:  	-70 [-75, -73] dBm
+	signal avg:	-68 [-72, -71] dBm
+	Toffset:	18446743718821822464 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	20 ms
+	rx bytes:	189253
+	rx packets:	1362
+	tx bytes:	12631
+	tx packets:	64
+	tx retries:	8
+	tx failed:	0
+	rx drop misc:	1
+	signal:  	-71 [-76, -72] dBm
+	signal avg:	-69 [-73, -70] dBm
+	Toffset:	18446743718821822456 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	0 ms
+	rx bytes:	204665
+	rx packets:	1477
+	tx bytes:	17291
+	tx packets:	85
+	tx retries:	8
+	tx failed:	0
+	rx drop misc:	1
+	signal:  	-70 [-74, -72] dBm
+	signal avg:	-69 [-73, -71] dBm
+	Toffset:	18446743718821822463 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	10 ms
+	rx bytes:	239761
+	rx packets:	1680
+	tx bytes:	22331
+	tx packets:	108
+	tx retries:	8
+	tx failed:	0
+	rx drop misc:	1
+	signal:  	-68 [-73, -70] dBm
+	signal avg:	-69 [-74, -72] dBm
+	Toffset:	18446743718821822455 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	20 ms
+	rx bytes:	308088
+	rx packets:	1963
+	tx bytes:	137781
+	tx packets:	271
+	tx retries:	26
+	tx failed:	0
+	rx drop misc:	2
+	signal:  	-69 [-73, -72] dBm
+	signal avg:	-70 [-74, -73] dBm
+	Toffset:	18446743718821822450 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	20 ms
+	rx bytes:	494206
+	rx packets:	2357
+	tx bytes:	236792
+	tx packets:	485
+	tx retries:	53
+	tx failed:	0
+	rx drop misc:	2
+	signal:  	-69 [-73, -71] dBm
+	signal avg:	-70 [-74, -72] dBm
+	Toffset:	18446743718821822451 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	10 ms
+	rx bytes:	519005
+	rx packets:	2501
+	tx bytes:	242969
+	tx packets:	516
+	tx retries:	62
+	tx failed:	0
+	rx drop misc:	3
+	signal:  	-70 [-74, -72] dBm
+	signal avg:	-70 [-75, -72] dBm
+	Toffset:	18446743718821822450 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	0 ms
+	rx bytes:	608757
+	rx packets:	2707
+	tx bytes:	291766
+	tx packets:	623
+	tx retries:	71
+	tx failed:	0
+	rx drop misc:	3
+	signal:  	-74 [-78, -76] dBm
+	signal avg:	-72 [-76, -75] dBm
+	Toffset:	18446743718821822445 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	20 ms
+	rx bytes:	740306
+	rx packets:	3042
+	tx bytes:	433406
+	tx packets:	808
+	tx retries:	92
+	tx failed:	0
+	rx drop misc:	10
+	signal:  	-70 [-74, -71] dBm
+	signal avg:	-70 [-75, -72] dBm
+	Toffset:	18446743718821822458 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	0 ms
+	rx bytes:	766577
+	rx packets:	3171
+	tx bytes:	450230
+	tx packets:	847
+	tx retries:	95
+	tx failed:	0
+	rx drop misc:	12
+	signal:  	-70 [-74, -72] dBm
+	signal avg:	-70 [-75, -72] dBm
+	Toffset:	18446743718821822447 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	10 ms
+	rx bytes:	780257
+	rx packets:	3281
+	tx bytes:	454452
+	tx packets:	865
+	tx retries:	95
+	tx failed:	0
+	rx drop misc:	12
+	signal:  	-72 [-78, -75] dBm
+	signal avg:	-70 [-75, -73] dBm
+	Toffset:	18446743718821822453 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	10 ms
+	rx bytes:	808016
+	rx packets:	3430
+	tx bytes:	462600
+	tx packets:	901
+	tx retries:	98
+	tx failed:	0
+	rx drop misc:	12
+	signal:  	-73 [-77, -76] dBm
+	signal avg:	-71 [-75, -74] dBm
+	Toffset:	18446743718821822461 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	20 ms
+	rx bytes:	820841
+	rx packets:	3526
+	tx bytes:	467969
+	tx packets:	927
+	tx retries:	99
+	tx failed:	0
+	rx drop misc:	13
+	signal:  	-73 [-77, -75] dBm
+	signal avg:	-71 [-75, -73] dBm
+	Toffset:	18446743718821822453 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	20 ms
+	rx bytes:	848396
+	rx packets:	3678
+	tx bytes:	472906
+	tx packets:	950
+	tx retries:	100
+	tx failed:	0
+	rx drop misc:	13
+	signal:  	-72 [-77, -74] dBm
+	signal avg:	-70 [-75, -72] dBm
+	Toffset:	18446743718821822459 us
+
+Station meta_wlan1_mesh_17 (on wlan1-mesh)
+	inactive time:	20 ms
+	rx bytes:	866728
+	rx packets:	3790
+	tx bytes:	477404
+	tx packets:	970
+	tx retries:	102
+	tx failed:	0
+	rx drop misc:	13
+	signal:  	-74 [-77, -77] dBm
+	signal avg:	-71 [-76, -74] dBm
+	Toffset:	18446743718821822456 us

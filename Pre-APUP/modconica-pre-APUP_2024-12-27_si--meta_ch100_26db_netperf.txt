@@ -1,0 +1,35 @@
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::aa40:41ff:fe1c:8624%wlan1-mesh () port 0 AF_INET6 : demo
+Interim result:   52.33 10^6bits/s over 1.019 seconds ending at 1735321668.765
+Interim result:   69.51 10^6bits/s over 1.005 seconds ending at 1735321669.770
+Interim result:   77.56 10^6bits/s over 1.000 seconds ending at 1735321670.771
+Interim result:   67.07 10^6bits/s over 1.153 seconds ending at 1735321671.923
+Interim result:   55.84 10^6bits/s over 1.202 seconds ending at 1735321673.125
+Interim result:   65.82 10^6bits/s over 1.014 seconds ending at 1735321674.139
+Interim result:   49.76 10^6bits/s over 1.322 seconds ending at 1735321675.461
+Interim result:   66.00 10^6bits/s over 1.062 seconds ending at 1735321676.524
+Interim result:   56.89 10^6bits/s over 1.159 seconds ending at 1735321677.682
+Interim result:   65.04 10^6bits/s over 1.026 seconds ending at 1735321678.708
+Interim result:   68.08 10^6bits/s over 1.011 seconds ending at 1735321679.719
+Interim result:   48.40 10^6bits/s over 1.405 seconds ending at 1735321681.124
+Interim result:   55.51 10^6bits/s over 1.100 seconds ending at 1735321682.225
+Interim result:   67.04 10^6bits/s over 1.001 seconds ending at 1735321683.226
+Interim result:   69.13 10^6bits/s over 1.014 seconds ending at 1735321684.240
+Interim result:   46.98 10^6bits/s over 1.470 seconds ending at 1735321685.711
+Interim result:   65.10 10^6bits/s over 1.001 seconds ending at 1735321686.711
+Interim result:   67.25 10^6bits/s over 1.010 seconds ending at 1735321687.721
+Interim result:   60.74 10^6bits/s over 1.107 seconds ending at 1735321688.828
+Interim result:   66.95 10^6bits/s over 1.038 seconds ending at 1735321689.865
+Interim result:   54.88 10^6bits/s over 1.220 seconds ending at 1735321691.086
+Interim result:   65.96 10^6bits/s over 1.003 seconds ending at 1735321692.089
+Interim result:   64.77 10^6bits/s over 1.020 seconds ending at 1735321693.109
+Interim result:   65.97 10^6bits/s over 1.023 seconds ending at 1735321694.132
+Interim result:   51.48 10^6bits/s over 1.283 seconds ending at 1735321695.416
+Interim result:   68.72 10^6bits/s over 1.017 seconds ending at 1735321696.432
+Interim result:   68.06 10^6bits/s over 1.009 seconds ending at 1735321697.441
+Interim result:   69.84 10^6bits/s over 0.304 seconds ending at 1735321697.746
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+ 87380  16384  16384    30.05        61.48   54.63    48.27    72.793  64.320 
