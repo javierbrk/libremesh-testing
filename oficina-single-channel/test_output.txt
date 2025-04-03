@@ -1,0 +1,550 @@
+Iteration 1 fe80::ac40:41ff:fe1c:8452%wlan5-mesh 
+wlan5-ap  ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 51/70
+          Signal: -59 dBm  Noise: -95 dBm
+          Bit Rate: 150.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-apname ESSID: "LibreMesh.org/LiMe-103ced"
+          Access Point: AA:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-mesh ESSID: "LiMe"
+          Access Point: AE:40:41:1C:84:35
+          Mode: Mesh Point  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -38 dBm  Noise: -95 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+AE:40:41:1C:84:52  -38 dBm / -95 dBm (SNR 57)  80 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               336789 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz               832531 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Throughput: 95.07
+AE:40:41:1C:84:52  -49 dBm / -95 dBm (SNR 46)  20 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               359599 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz               914705 Pkts.
+	expected throughput: 231.8 MBit/s
+
+--------------------------------------
+Iteration 2 fe80::ac40:41ff:fe1c:8452%wlan5-mesh 
+wlan5-ap  ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 51/70
+          Signal: -59 dBm  Noise: -95 dBm
+          Bit Rate: 150.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-apname ESSID: "LibreMesh.org/LiMe-103ced"
+          Access Point: AA:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-mesh ESSID: "LiMe"
+          Access Point: AE:40:41:1C:84:35
+          Mode: Mesh Point  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -39 dBm  Noise: -95 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+AE:40:41:1C:84:52  -38 dBm / -95 dBm (SNR 57)  70 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               359625 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz               914705 Pkts.
+	expected throughput: 231.8 MBit/s
+
+Throughput: 97.11
+AE:40:41:1C:84:52  -48 dBm / -95 dBm (SNR 47)  10 ms ago
+	RX: 270.0 MBit/s, MCS 15, 40MHz               386058 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz               998908 Pkts.
+	expected throughput: 209.7 MBit/s
+
+--------------------------------------
+Iteration 3 fe80::ac40:41ff:fe1c:8452%wlan5-mesh 
+wlan5-ap  ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 60/70
+          Signal: -50 dBm  Noise: -95 dBm
+          Bit Rate: 150.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-apname ESSID: "LibreMesh.org/LiMe-103ced"
+          Access Point: AA:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-mesh ESSID: "LiMe"
+          Access Point: AE:40:41:1C:84:35
+          Mode: Mesh Point  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -38 dBm  Noise: -95 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+AE:40:41:1C:84:52  -39 dBm / -95 dBm (SNR 56)  0 ms ago
+	RX: 270.0 MBit/s, MCS 15, 40MHz               386086 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz               998908 Pkts.
+	expected throughput: 209.7 MBit/s
+
+Throughput: 86.53
+AE:40:41:1C:84:52  -47 dBm / -95 dBm (SNR 48)  20 ms ago
+	RX: 270.0 MBit/s, MCS 15, 40MHz               414422 Pkts.
+	TX: 270.0 MBit/s, MCS 15, 40MHz              1073538 Pkts.
+	expected throughput: 230.8 MBit/s
+
+--------------------------------------
+Iteration 4 fe80::ac40:41ff:fe1c:8452%wlan5-mesh 
+wlan5-ap  ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 59/70
+          Signal: -51 dBm  Noise: -95 dBm
+          Bit Rate: 150.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-apname ESSID: "LibreMesh.org/LiMe-103ced"
+          Access Point: AA:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-mesh ESSID: "LiMe"
+          Access Point: AE:40:41:1C:84:35
+          Mode: Mesh Point  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -38 dBm  Noise: -95 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+AE:40:41:1C:84:52  -38 dBm / -95 dBm (SNR 57)  60 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               414464 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz              1073553 Pkts.
+	expected throughput: 222.4 MBit/s
+
+Throughput: 93.25
+AE:40:41:1C:84:52  -49 dBm / -95 dBm (SNR 46)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               443203 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz              1154154 Pkts.
+	expected throughput: 199.6 MBit/s
+
+--------------------------------------
+Iteration 5 fe80::ac40:41ff:fe1c:8452%wlan5-mesh 
+wlan5-ap  ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 60/70
+          Signal: -50 dBm  Noise: -95 dBm
+          Bit Rate: 150.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-apname ESSID: "LibreMesh.org/LiMe-103ced"
+          Access Point: AA:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-mesh ESSID: "LiMe"
+          Access Point: AE:40:41:1C:84:35
+          Mode: Mesh Point  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -38 dBm  Noise: -95 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+AE:40:41:1C:84:52  -38 dBm / -95 dBm (SNR 57)  70 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               443228 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz              1154154 Pkts.
+	expected throughput: 199.6 MBit/s
+
+Throughput: 89.76
+AE:40:41:1C:84:52  -46 dBm / -95 dBm (SNR 49)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               458808 Pkts.
+	TX: 270.0 MBit/s, MCS 15, 40MHz              1231968 Pkts.
+	expected throughput: 198.6 MBit/s
+
+--------------------------------------
+Iteration 6 fe80::ac40:41ff:fe1c:8452%wlan5-mesh 
+wlan5-ap  ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 60/70
+          Signal: -50 dBm  Noise: -95 dBm
+          Bit Rate: 150.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-apname ESSID: "LibreMesh.org/LiMe-103ced"
+          Access Point: AA:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-mesh ESSID: "LiMe"
+          Access Point: AE:40:41:1C:84:35
+          Mode: Mesh Point  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -37 dBm  Noise: -95 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+AE:40:41:1C:84:52  -37 dBm / -95 dBm (SNR 58)  0 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               458841 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz              1231972 Pkts.
+	expected throughput: 196.0 MBit/s
+
+Throughput: 94.28
+AE:40:41:1C:84:52  -48 dBm / -95 dBm (SNR 47)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               474350 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz              1313529 Pkts.
+	expected throughput: 210.6 MBit/s
+
+--------------------------------------
+Iteration 7 fe80::ac40:41ff:fe1c:8452%wlan5-mesh 
+wlan5-ap  ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 61/70
+          Signal: -49 dBm  Noise: -95 dBm
+          Bit Rate: 150.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-apname ESSID: "LibreMesh.org/LiMe-103ced"
+          Access Point: AA:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-mesh ESSID: "LiMe"
+          Access Point: AE:40:41:1C:84:35
+          Mode: Mesh Point  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -38 dBm  Noise: -95 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+AE:40:41:1C:84:52  -38 dBm / -95 dBm (SNR 57)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               474379 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz              1313531 Pkts.
+	expected throughput: 204.8 MBit/s
+
+Throughput: 87.93
+AE:40:41:1C:84:52  -45 dBm / -95 dBm (SNR 50)  0 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               498771 Pkts.
+	TX: 270.0 MBit/s, MCS 15, 40MHz              1389721 Pkts.
+	expected throughput: 207.4 MBit/s
+
+--------------------------------------
+Iteration 8 fe80::ac40:41ff:fe1c:8452%wlan5-mesh 
+wlan5-ap  ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 61/70
+          Signal: -49 dBm  Noise: -95 dBm
+          Bit Rate: 150.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-apname ESSID: "LibreMesh.org/LiMe-103ced"
+          Access Point: AA:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-mesh ESSID: "LiMe"
+          Access Point: AE:40:41:1C:84:35
+          Mode: Mesh Point  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -36 dBm  Noise: -95 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+AE:40:41:1C:84:52  -36 dBm / -95 dBm (SNR 59)  40 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               498842 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz              1389762 Pkts.
+	expected throughput: 190.6 MBit/s
+
+Throughput: 91.40
+AE:40:41:1C:84:52  -45 dBm / -95 dBm (SNR 50)  10 ms ago
+	RX: 270.0 MBit/s, MCS 14, 40MHz               519140 Pkts.
+	TX: 243.0 MBit/s, MCS 14, 40MHz              1469349 Pkts.
+	expected throughput: 187.8 MBit/s
+
+--------------------------------------
+Iteration 9 fe80::ac40:41ff:fe1c:8452%wlan5-mesh 
+wlan5-ap  ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 53/70
+          Signal: -57 dBm  Noise: -95 dBm
+          Bit Rate: 150.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-apname ESSID: "LibreMesh.org/LiMe-103ced"
+          Access Point: AA:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-mesh ESSID: "LiMe"
+          Access Point: AE:40:41:1C:84:35
+          Mode: Mesh Point  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -36 dBm  Noise: -95 dBm
+          Bit Rate: 243.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+AE:40:41:1C:84:52  -36 dBm / -95 dBm (SNR 59)  0 ms ago
+	RX: 270.0 MBit/s, MCS 14, 40MHz               519168 Pkts.
+	TX: 243.0 MBit/s, MCS 14, 40MHz              1469349 Pkts.
+	expected throughput: 187.8 MBit/s
+
+Throughput: 96.31
+AE:40:41:1C:84:52  -45 dBm / -95 dBm (SNR 50)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               534923 Pkts.
+	TX: 270.0 MBit/s, MCS 15, 40MHz              1552343 Pkts.
+	expected throughput: 210.5 MBit/s
+
+--------------------------------------
+Iteration 10 fe80::ac40:41ff:fe1c:8452%wlan5-mesh 
+wlan5-ap  ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 53/70
+          Signal: -57 dBm  Noise: -95 dBm
+          Bit Rate: 150.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-apname ESSID: "LibreMesh.org/LiMe-103ced"
+          Access Point: AA:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-mesh ESSID: "LiMe"
+          Access Point: AE:40:41:1C:84:35
+          Mode: Mesh Point  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -37 dBm  Noise: -95 dBm
+          Bit Rate: 270.0 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+AE:40:41:1C:84:52  -37 dBm / -95 dBm (SNR 58)  80 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               534948 Pkts.
+	TX: 270.0 MBit/s, MCS 15, 40MHz              1552343 Pkts.
+	expected throughput: 210.5 MBit/s
+
+Throughput: 94.30
+AE:40:41:1C:84:52  -48 dBm / -95 dBm (SNR 47)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz               561052 Pkts.
+	TX: 270.0 MBit/s, MCS 14, 40MHz              1634276 Pkts.
+	expected throughput: 208.1 MBit/s
+
+--------------------------------------

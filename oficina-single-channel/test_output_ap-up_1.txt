@@ -1,0 +1,1263 @@
+{
+	"radio0": {
+		"up": false,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": true,
+		"config": {
+			"path": "1e140000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0",
+			"band": "2g",
+			"channel": "11",
+			"htmode": "HT20",
+			"distance": "1000",
+			"noscan": "1",
+			"noscan": true,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "lm_wlan0_apup_radio0",
+				"config": {
+					"mode": "ap",
+					"ifname": "wlan0-apup",
+					"apup": true,
+					"apup_peer_ifname_prefix": "wlan0-peer",
+					"ssid": "LibreMesh.org",
+					"mode": "ap",
+					"network": [
+						"lan"
+					]
+				},
+				"vlans": [
+					
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	},
+	"radio1": {
+		"up": false,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": true,
+		"config": {
+			"path": "1e140000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0+1",
+			"band": "5g",
+			"channel": "48",
+			"htmode": "HT40",
+			"distance": "10000",
+			"noscan": "1",
+			"noscan": true,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "lm_wlan1_apup_radio1",
+				"config": {
+					"mode": "ap",
+					"ifname": "wlan1-apup",
+					"apup": true,
+					"apup_peer_ifname_prefix": "wlan1-peer",
+					"ssid": "LibreMesh.org",
+					"mode": "ap",
+					"network": [
+						"lan"
+					]
+				},
+				"vlans": [
+					
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	},
+	"radio2": {
+		"up": false,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": true,
+		"config": {
+			"path": "1e140000.pcie/pci0000:00/0000:00:02.0/0000:03:00.0",
+			"band": "2g",
+			"channel": "11",
+			"htmode": "HT20",
+			"distance": "1000",
+			"noscan": "1",
+			"noscan": true,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "lm_wlan2_apup_radio2",
+				"config": {
+					"mode": "ap",
+					"ifname": "wlan2-apup",
+					"apup": true,
+					"apup_peer_ifname_prefix": "wlan2-peer",
+					"ssid": "LibreMesh.org",
+					"mode": "ap",
+					"network": [
+						"lan"
+					]
+				},
+				"vlans": [
+					
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	},
+	"radio3": {
+		"up": false,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": true,
+		"config": {
+			"path": "1e140000.pcie/pci0000:00/0000:00:02.0/0000:03:00.0+1",
+			"band": "5g",
+			"channel": "157",
+			"htmode": "HT40",
+			"distance": "10000",
+			"noscan": "1",
+			"noscan": true,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "lm_wlan3_apup_radio3",
+				"config": {
+					"mode": "ap",
+					"ifname": "wlan3-apup",
+					"apup": true,
+					"apup_peer_ifname_prefix": "wlan3-peer",
+					"ssid": "LibreMesh.org",
+					"mode": "ap",
+					"network": [
+						"lan"
+					]
+				},
+				"vlans": [
+					
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	},
+	"radio4": {
+		"up": false,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": true,
+		"config": {
+			"path": "1e140000.pcie/pci0000:00/0000:00:01.0/0000:02:00.0",
+			"band": "5g",
+			"channel": "48",
+			"htmode": "HT40",
+			"distance": "10000",
+			"noscan": "1",
+			"noscan": true,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "lm_wlan4_apup_radio4",
+				"config": {
+					"mode": "ap",
+					"ifname": "wlan4-apup",
+					"apup": true,
+					"apup_peer_ifname_prefix": "wlan4-peer",
+					"ssid": "LibreMesh.org",
+					"mode": "ap",
+					"network": [
+						"lan"
+					]
+				},
+				"vlans": [
+					
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	},
+	"radio5": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "1e140000.pcie/pci0000:00/0000:00:02.0/0000:01:00.0",
+			"band": "5g",
+			"channel": "157",
+			"htmode": "HT40",
+			"distance": "10000",
+			"noscan": "1",
+			"noscan": true,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "lm_wlan5_apup_radio5",
+				"ifname": "wlan5-apup",
+				"config": {
+					"mode": "ap",
+					"ifname": "wlan5-apup",
+					"apup": true,
+					"apup_peer_ifname_prefix": "wlan5-peer",
+					"ssid": "LibreMesh.org",
+					"mode": "ap",
+					"network": [
+						"lan"
+					]
+				},
+				"vlans": [
+					
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	}
+}
+{
+	"devices": [
+		"wlan5-apup",
+		"wlan5-peer1"
+	]
+}
+Iteration 1 fe80::aa40:41ff:fe1c:8452%wlan5-peer1 
+wlan5-apup ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -94 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-peer1 ESSID: unknown
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master (VLAN)  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -36 dBm  Noise: -94 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: unknown
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+A8:40:41:1C:84:52  -36 dBm / -94 dBm (SNR 58)  80 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                42569 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                20942 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Throughput: 8.81
+A8:40:41:1C:84:52  -44 dBm / -94 dBm (SNR 50)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                46973 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                28839 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Station a8:40:41:1c:84:52 (on wlan5-peer1)
+	inactive time:	30 ms
+	rx bytes:	7947768
+	rx packets:	46973
+	tx bytes:	24441165
+	tx packets:	28839
+	tx retries:	1206
+	tx failed:	0
+	rx drop misc:	25096
+	signal:  	-44 [-51, -47] dBm
+	signal avg:	-44 [-51, -47] dBm
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	1970107 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1006709 us
+	airtime weight: 256
+	expected throughput:	58.684Mbps
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	0
+	beacon interval:0
+	connected time:	2572 seconds
+	associated at [boottime]:	1691.994s
+	associated at:	1725664783520 ms
+	current time:	1725667354868 ms
+	rx bytes:	7947768
+	rx packets:	46973
+	tx bytes:	24441165
+	tx packets:	28839
+	tx retries:	1206
+	tx failed:	0
+	rx drop misc:	25096
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	1970107 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1006709 us
+           CPU0       CPU1       
+  8:     157800     157502  MIPS GIC Local   1  timer
+  9:      40049          0  MIPS GIC  67  IPI call
+ 10:          0      91051  MIPS GIC  68  IPI call
+ 11:       6786          0  MIPS GIC  69  IPI resched
+ 12:          0       6638  MIPS GIC  70  IPI resched
+ 13:          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 14:         12          0  MIPS GIC  33  ttyS0
+ 15:      13879          0  MIPS GIC  10  1e100000.ethernet
+ 16:          3          0  MIPS GIC  30  mt7530
+ 18:          0          0    mt7530   1  mt7530-0:01
+ 19:          3          0    mt7530   2  mt7530-0:02
+ 20:          0          0    mt7530   3  mt7530-0:03
+ 21:          0          0    mt7530   4  mt7530-0:04
+ 22:          0          0  mt7621-gpio  18  keys
+ 23:          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 24:          0          0  MIPS GIC  26  1e004000.crypto
+ 25:     640495          0  MIPS GIC  32  ath9k
+ERR:          0
+--------------------------------------
+--------------------------------------
+Iteration 2 fe80::aa40:41ff:fe1c:8452%wlan5-peer1 
+wlan5-apup ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -94 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-peer1 ESSID: unknown
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master (VLAN)  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -36 dBm  Noise: -94 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: unknown
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+A8:40:41:1C:84:52  -37 dBm / -94 dBm (SNR 57)  140 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                46987 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                28840 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Throughput: 8.81
+A8:40:41:1C:84:52  -45 dBm / -94 dBm (SNR 49)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                51285 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                36803 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Station a8:40:41:1c:84:52 (on wlan5-peer1)
+	inactive time:	20 ms
+	rx bytes:	8446633
+	rx packets:	51285
+	tx bytes:	36582204
+	tx packets:	36803
+	tx retries:	1512
+	tx failed:	0
+	rx drop misc:	25207
+	signal:  	-45 [-51, -47] dBm
+	signal avg:	-44 [-50, -47] dBm
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	2661206 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1191946 us
+	airtime weight: 256
+	expected throughput:	58.684Mbps
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	0
+	beacon interval:0
+	connected time:	2583 seconds
+	associated at [boottime]:	1691.994s
+	associated at:	1725664783519 ms
+	current time:	1725667366366 ms
+	rx bytes:	8446633
+	rx packets:	51285
+	tx bytes:	36582204
+	tx packets:	36803
+	tx retries:	1512
+	tx failed:	0
+	rx drop misc:	25207
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	2661206 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1191946 us
+           CPU0       CPU1       
+  8:     158367     157973  MIPS GIC Local   1  timer
+  9:      40220          0  MIPS GIC  67  IPI call
+ 10:          0      95498  MIPS GIC  68  IPI call
+ 11:       6821          0  MIPS GIC  69  IPI resched
+ 12:          0       6671  MIPS GIC  70  IPI resched
+ 13:          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 14:         12          0  MIPS GIC  33  ttyS0
+ 15:      13911          0  MIPS GIC  10  1e100000.ethernet
+ 16:          3          0  MIPS GIC  30  mt7530
+ 18:          0          0    mt7530   1  mt7530-0:01
+ 19:          3          0    mt7530   2  mt7530-0:02
+ 20:          0          0    mt7530   3  mt7530-0:03
+ 21:          0          0    mt7530   4  mt7530-0:04
+ 22:          0          0  mt7621-gpio  18  keys
+ 23:          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 24:          0          0  MIPS GIC  26  1e004000.crypto
+ 25:     653897          0  MIPS GIC  32  ath9k
+ERR:          0
+--------------------------------------
+--------------------------------------
+Iteration 3 fe80::aa40:41ff:fe1c:8452%wlan5-peer1 
+wlan5-apup ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -94 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-peer1 ESSID: unknown
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master (VLAN)  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -35 dBm  Noise: -94 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: unknown
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+A8:40:41:1C:84:52  -35 dBm / -94 dBm (SNR 59)  160 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                51301 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                36806 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Throughput: 8.84
+A8:40:41:1C:84:52  -45 dBm / -94 dBm (SNR 49)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                55696 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                44774 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Station a8:40:41:1c:84:52 (on wlan5-peer1)
+	inactive time:	20 ms
+	rx bytes:	8950111
+	rx packets:	55696
+	tx bytes:	48805078
+	tx packets:	44774
+	tx retries:	1870
+	tx failed:	0
+	rx drop misc:	25322
+	signal:  	-45 [-51, -48] dBm
+	signal avg:	-44 [-50, -46] dBm
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	3359960 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1381230 us
+	airtime weight: 256
+	expected throughput:	58.684Mbps
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	0
+	beacon interval:0
+	connected time:	2595 seconds
+	associated at [boottime]:	1691.994s
+	associated at:	1725664783520 ms
+	current time:	1725667377907 ms
+	rx bytes:	8950111
+	rx packets:	55696
+	tx bytes:	48805078
+	tx packets:	44774
+	tx retries:	1870
+	tx failed:	0
+	rx drop misc:	25322
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	3359960 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1381230 us
+           CPU0       CPU1       
+  8:     158813     158372  MIPS GIC Local   1  timer
+  9:      40348          0  MIPS GIC  67  IPI call
+ 10:          0      99977  MIPS GIC  68  IPI call
+ 11:       6826          0  MIPS GIC  69  IPI resched
+ 12:          0       6675  MIPS GIC  70  IPI resched
+ 13:          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 14:         12          0  MIPS GIC  33  ttyS0
+ 15:      13934          0  MIPS GIC  10  1e100000.ethernet
+ 16:          3          0  MIPS GIC  30  mt7530
+ 18:          0          0    mt7530   1  mt7530-0:01
+ 19:          3          0    mt7530   2  mt7530-0:02
+ 20:          0          0    mt7530   3  mt7530-0:03
+ 21:          0          0    mt7530   4  mt7530-0:04
+ 22:          0          0  mt7621-gpio  18  keys
+ 23:          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 24:          0          0  MIPS GIC  26  1e004000.crypto
+ 25:     667420          0  MIPS GIC  32  ath9k
+ERR:          0
+--------------------------------------
+--------------------------------------
+Iteration 4 fe80::aa40:41ff:fe1c:8452%wlan5-peer1 
+wlan5-apup ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -94 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-peer1 ESSID: unknown
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master (VLAN)  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 67/70
+          Signal: -43 dBm  Noise: -94 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: unknown
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+A8:40:41:1C:84:52  -35 dBm / -94 dBm (SNR 59)  100 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                55710 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                44775 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Throughput: 8.52
+A8:40:41:1C:84:52  -43 dBm / -94 dBm (SNR 51)  20 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                60058 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                52506 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Station a8:40:41:1c:84:52 (on wlan5-peer1)
+	inactive time:	30 ms
+	rx bytes:	9459801
+	rx packets:	60058
+	tx bytes:	60570558
+	tx packets:	52506
+	tx retries:	2298
+	tx failed:	0
+	rx drop misc:	25435
+	signal:  	-43 [-47, -47] dBm
+	signal avg:	-44 [-48, -47] dBm
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	4042812 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1568656 us
+	airtime weight: 256
+	expected throughput:	58.684Mbps
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	0
+	beacon interval:0
+	connected time:	2606 seconds
+	associated at [boottime]:	1691.994s
+	associated at:	1725664783520 ms
+	current time:	1725667389422 ms
+	rx bytes:	9459967
+	rx packets:	60059
+	tx bytes:	60570558
+	tx packets:	52506
+	tx retries:	2298
+	tx failed:	0
+	rx drop misc:	25436
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	4042812 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1568656 us
+           CPU0       CPU1       
+  8:     159336     158887  MIPS GIC Local   1  timer
+  9:      40528          0  MIPS GIC  67  IPI call
+ 10:          0     104424  MIPS GIC  68  IPI call
+ 11:       6838          0  MIPS GIC  69  IPI resched
+ 12:          0       6691  MIPS GIC  70  IPI resched
+ 13:          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 14:         12          0  MIPS GIC  33  ttyS0
+ 15:      13964          0  MIPS GIC  10  1e100000.ethernet
+ 16:          3          0  MIPS GIC  30  mt7530
+ 18:          0          0    mt7530   1  mt7530-0:01
+ 19:          3          0    mt7530   2  mt7530-0:02
+ 20:          0          0    mt7530   3  mt7530-0:03
+ 21:          0          0    mt7530   4  mt7530-0:04
+ 22:          0          0  mt7621-gpio  18  keys
+ 23:          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 24:          0          0  MIPS GIC  26  1e004000.crypto
+ 25:     680630          0  MIPS GIC  32  ath9k
+ERR:          0
+--------------------------------------
+--------------------------------------
+Iteration 5 fe80::aa40:41ff:fe1c:8452%wlan5-peer1 
+wlan5-apup ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -94 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-peer1 ESSID: unknown
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master (VLAN)  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -35 dBm  Noise: -94 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: unknown
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+A8:40:41:1C:84:52  -35 dBm / -94 dBm (SNR 59)  230 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                60079 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                52508 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Throughput: 8.60
+A8:40:41:1C:84:52  -44 dBm / -94 dBm (SNR 50)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                64452 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                60303 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Station a8:40:41:1c:84:52 (on wlan5-peer1)
+	inactive time:	40 ms
+	rx bytes:	9963773
+	rx packets:	64452
+	tx bytes:	72475222
+	tx packets:	60303
+	tx retries:	2753
+	tx failed:	0
+	rx drop misc:	25547
+	signal:  	-44 [-51, -47] dBm
+	signal avg:	-44 [-51, -47] dBm
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	4735830 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1757288 us
+	airtime weight: 256
+	expected throughput:	58.684Mbps
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	0
+	beacon interval:0
+	connected time:	2618 seconds
+	associated at [boottime]:	1691.994s
+	associated at:	1725664783519 ms
+	current time:	1725667400973 ms
+	rx bytes:	9963773
+	rx packets:	64452
+	tx bytes:	72475222
+	tx packets:	60303
+	tx retries:	2753
+	tx failed:	0
+	rx drop misc:	25547
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	4735830 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1757288 us
+           CPU0       CPU1       
+  8:     159814     159327  MIPS GIC Local   1  timer
+  9:      40661          0  MIPS GIC  67  IPI call
+ 10:          0     108829  MIPS GIC  68  IPI call
+ 11:       6844          0  MIPS GIC  69  IPI resched
+ 12:          0       6701  MIPS GIC  70  IPI resched
+ 13:          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 14:         12          0  MIPS GIC  33  ttyS0
+ 15:      13989          0  MIPS GIC  10  1e100000.ethernet
+ 16:          3          0  MIPS GIC  30  mt7530
+ 18:          0          0    mt7530   1  mt7530-0:01
+ 19:          3          0    mt7530   2  mt7530-0:02
+ 20:          0          0    mt7530   3  mt7530-0:03
+ 21:          0          0    mt7530   4  mt7530-0:04
+ 22:          0          0  mt7621-gpio  18  keys
+ 23:          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 24:          0          0  MIPS GIC  26  1e004000.crypto
+ 25:     693963          0  MIPS GIC  32  ath9k
+ERR:          0
+--------------------------------------
+--------------------------------------
+Iteration 6 fe80::aa40:41ff:fe1c:8452%wlan5-peer1 
+wlan5-apup ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -94 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-peer1 ESSID: unknown
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master (VLAN)  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -36 dBm  Noise: -94 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: unknown
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+A8:40:41:1C:84:52  -36 dBm / -94 dBm (SNR 58)  70 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                64467 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                60306 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Throughput: 8.53
+A8:40:41:1C:84:52  -44 dBm / -94 dBm (SNR 50)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                68678 Pkts.
+	TX: 270.0 MBit/s, MCS 14, 40MHz                68156 Pkts.
+	expected throughput: 58.5 MBit/s
+
+Station a8:40:41:1c:84:52 (on wlan5-peer1)
+	inactive time:	20 ms
+	rx bytes:	10444705
+	rx packets:	68678
+	tx bytes:	84519220
+	tx packets:	68156
+	tx retries:	3306
+	tx failed:	0
+	rx drop misc:	25664
+	signal:  	-44 [-50, -47] dBm
+	signal avg:	-44 [-52, -47] dBm
+	tx bitrate:	270.0 MBit/s MCS 14 40MHz short GI
+	tx duration:	5443512 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1938336 us
+	airtime weight: 256
+	expected throughput:	57.219Mbps
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	0
+	beacon interval:0
+	connected time:	2630 seconds
+	associated at [boottime]:	1691.994s
+	associated at:	1725664783520 ms
+	current time:	1725667412736 ms
+	rx bytes:	10444705
+	rx packets:	68678
+	tx bytes:	84519220
+	tx packets:	68156
+	tx retries:	3306
+	tx failed:	0
+	rx drop misc:	25664
+	tx bitrate:	270.0 MBit/s MCS 14 40MHz short GI
+	tx duration:	5443512 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	1938336 us
+           CPU0       CPU1       
+  8:     160247     159780  MIPS GIC Local   1  timer
+  9:      40759          0  MIPS GIC  67  IPI call
+ 10:          0     113094  MIPS GIC  68  IPI call
+ 11:       6876          0  MIPS GIC  69  IPI resched
+ 12:          0       6718  MIPS GIC  70  IPI resched
+ 13:          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 14:         12          0  MIPS GIC  33  ttyS0
+ 15:      14009          0  MIPS GIC  10  1e100000.ethernet
+ 16:          3          0  MIPS GIC  30  mt7530
+ 18:          0          0    mt7530   1  mt7530-0:01
+ 19:          3          0    mt7530   2  mt7530-0:02
+ 20:          0          0    mt7530   3  mt7530-0:03
+ 21:          0          0    mt7530   4  mt7530-0:04
+ 22:          0          0  mt7621-gpio  18  keys
+ 23:          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 24:          0          0  MIPS GIC  26  1e004000.crypto
+ 25:     707201          0  MIPS GIC  32  ath9k
+ERR:          0
+--------------------------------------
+--------------------------------------
+Iteration 7 fe80::aa40:41ff:fe1c:8452%wlan5-peer1 
+wlan5-apup ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -94 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-peer1 ESSID: unknown
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master (VLAN)  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -36 dBm  Noise: -94 dBm
+          Bit Rate: 270.0 MBit/s
+          Encryption: unknown
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+A8:40:41:1C:84:52  -36 dBm / -94 dBm (SNR 58)  1220 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                68690 Pkts.
+	TX: 270.0 MBit/s, MCS 14, 40MHz                68156 Pkts.
+	expected throughput: 58.5 MBit/s
+
+Throughput: 7.93
+A8:40:41:1C:84:52  -44 dBm / -94 dBm (SNR 50)  20 ms ago
+	RX: 270.0 MBit/s, MCS 15, 40MHz                72567 Pkts.
+	TX: 270.0 MBit/s, MCS 15, 40MHz                75371 Pkts.
+	expected throughput: 58.6 MBit/s
+
+Station a8:40:41:1c:84:52 (on wlan5-peer1)
+	inactive time:	30 ms
+	rx bytes:	10887449
+	rx packets:	72567
+	tx bytes:	95590634
+	tx packets:	75371
+	tx retries:	4188
+	tx failed:	0
+	rx drop misc:	25778
+	signal:  	-44 [-51, -48] dBm
+	signal avg:	-44 [-51, -47] dBm
+	tx bitrate:	270.0 MBit/s MCS 15 40MHz
+	tx duration:	6139638 us
+	rx bitrate:	270.0 MBit/s MCS 15 40MHz
+	rx duration:	2104566 us
+	airtime weight: 256
+	expected throughput:	57.311Mbps
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	0
+	beacon interval:0
+	connected time:	2641 seconds
+	associated at [boottime]:	1691.994s
+	associated at:	1725664783519 ms
+	current time:	1725667424381 ms
+	rx bytes:	10887449
+	rx packets:	72567
+	tx bytes:	95590702
+	tx packets:	75372
+	tx retries:	4188
+	tx failed:	0
+	rx drop misc:	25778
+	tx bitrate:	270.0 MBit/s MCS 15 40MHz
+	tx duration:	6139682 us
+	rx bitrate:	270.0 MBit/s MCS 15 40MHz
+	rx duration:	2104566 us
+           CPU0       CPU1       
+  8:     160709     160194  MIPS GIC Local   1  timer
+  9:      40891          0  MIPS GIC  67  IPI call
+ 10:          0     116986  MIPS GIC  68  IPI call
+ 11:       6886          0  MIPS GIC  69  IPI resched
+ 12:          0       6721  MIPS GIC  70  IPI resched
+ 13:          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 14:         12          0  MIPS GIC  33  ttyS0
+ 15:      14023          0  MIPS GIC  10  1e100000.ethernet
+ 16:          3          0  MIPS GIC  30  mt7530
+ 18:          0          0    mt7530   1  mt7530-0:01
+ 19:          3          0    mt7530   2  mt7530-0:02
+ 20:          0          0    mt7530   3  mt7530-0:03
+ 21:          0          0    mt7530   4  mt7530-0:04
+ 22:          0          0  mt7621-gpio  18  keys
+ 23:          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 24:          0          0  MIPS GIC  26  1e004000.crypto
+ 25:     719468          0  MIPS GIC  32  ath9k
+ERR:          0
+--------------------------------------
+--------------------------------------
+Iteration 8 fe80::aa40:41ff:fe1c:8452%wlan5-peer1 
+wlan5-apup ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -94 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-peer1 ESSID: unknown
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master (VLAN)  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -36 dBm  Noise: -94 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: unknown
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+A8:40:41:1C:84:52  -36 dBm / -94 dBm (SNR 58)  490 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                72581 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                75374 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Throughput: 7.83
+A8:40:41:1C:84:52  -46 dBm / -95 dBm (SNR 49)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                76554 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                82387 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Station a8:40:41:1c:84:52 (on wlan5-peer1)
+	inactive time:	20 ms
+	rx bytes:	11343011
+	rx packets:	76554
+	tx bytes:	106347008
+	tx packets:	82387
+	tx retries:	5011
+	tx failed:	0
+	rx drop misc:	25891
+	signal:  	-46 [-54, -50] dBm
+	signal avg:	-44 [-51, -48] dBm
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	6808880 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	2275270 us
+	airtime weight: 256
+	expected throughput:	58.684Mbps
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	0
+	beacon interval:0
+	connected time:	2653 seconds
+	associated at [boottime]:	1691.994s
+	associated at:	1725664783520 ms
+	current time:	1725667435855 ms
+	rx bytes:	11343011
+	rx packets:	76554
+	tx bytes:	106347008
+	tx packets:	82387
+	tx retries:	5011
+	tx failed:	0
+	rx drop misc:	25891
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	6808880 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	2275270 us
+           CPU0       CPU1       
+  8:     161128     160621  MIPS GIC Local   1  timer
+  9:      41016          0  MIPS GIC  67  IPI call
+ 10:          0     121013  MIPS GIC  68  IPI call
+ 11:       6894          0  MIPS GIC  69  IPI resched
+ 12:          0       6726  MIPS GIC  70  IPI resched
+ 13:          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 14:         12          0  MIPS GIC  33  ttyS0
+ 15:      14041          0  MIPS GIC  10  1e100000.ethernet
+ 16:          3          0  MIPS GIC  30  mt7530
+ 18:          0          0    mt7530   1  mt7530-0:01
+ 19:          3          0    mt7530   2  mt7530-0:02
+ 20:          0          0    mt7530   3  mt7530-0:03
+ 21:          0          0    mt7530   4  mt7530-0:04
+ 22:          0          0  mt7621-gpio  18  keys
+ 23:          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 24:          0          0  MIPS GIC  26  1e004000.crypto
+ 25:     731637          0  MIPS GIC  32  ath9k
+ERR:          0
+--------------------------------------
+--------------------------------------
+Iteration 9 fe80::aa40:41ff:fe1c:8452%wlan5-peer1 
+wlan5-apup ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-peer1 ESSID: unknown
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master (VLAN)  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -38 dBm  Noise: -95 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: unknown
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+A8:40:41:1C:84:52  -37 dBm / -95 dBm (SNR 58)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                76568 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                82389 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Throughput: 8.25
+A8:40:41:1C:84:52  -46 dBm / -95 dBm (SNR 49)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                80649 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                89777 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Station a8:40:41:1c:84:52 (on wlan5-peer1)
+	inactive time:	30 ms
+	rx bytes:	11812087
+	rx packets:	80649
+	tx bytes:	117676956
+	tx packets:	89777
+	tx retries:	5681
+	tx failed:	0
+	rx drop misc:	26004
+	signal:  	-46 [-50, -49] dBm
+	signal avg:	-45 [-50, -49] dBm
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	7491888 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	2450758 us
+	airtime weight: 256
+	expected throughput:	58.684Mbps
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	0
+	beacon interval:0
+	connected time:	2664 seconds
+	associated at [boottime]:	1691.994s
+	associated at:	1725664783520 ms
+	current time:	1725667447331 ms
+	rx bytes:	11812087
+	rx packets:	80649
+	tx bytes:	117676956
+	tx packets:	89777
+	tx retries:	5681
+	tx failed:	0
+	rx drop misc:	26004
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	7491888 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	2450758 us
+           CPU0       CPU1       
+  8:     161574     161108  MIPS GIC Local   1  timer
+  9:      41200          0  MIPS GIC  67  IPI call
+ 10:          0     125141  MIPS GIC  68  IPI call
+ 11:       6902          0  MIPS GIC  69  IPI resched
+ 12:          0       6741  MIPS GIC  70  IPI resched
+ 13:          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 14:         12          0  MIPS GIC  33  ttyS0
+ 15:      14073          0  MIPS GIC  10  1e100000.ethernet
+ 16:          3          0  MIPS GIC  30  mt7530
+ 18:          0          0    mt7530   1  mt7530-0:01
+ 19:          3          0    mt7530   2  mt7530-0:02
+ 20:          0          0    mt7530   3  mt7530-0:03
+ 21:          0          0    mt7530   4  mt7530-0:04
+ 22:          0          0  mt7621-gpio  18  keys
+ 23:          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 24:          0          0  MIPS GIC  26  1e004000.crypto
+ 25:     744243          0  MIPS GIC  32  ath9k
+ERR:          0
+--------------------------------------
+--------------------------------------
+Iteration 10 fe80::aa40:41ff:fe1c:8452%wlan5-peer1 
+wlan5-apup ESSID: "LibreMesh.org"
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: -95 dBm
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+wlan5-peer1 ESSID: unknown
+          Access Point: A8:40:41:1C:84:35
+          Mode: Master (VLAN)  Channel: 157 (5.785 GHz)  HT Mode: HT40
+          Center Channel 1: 159 2: unknown
+          Tx-Power: 27 dBm  Link Quality: 70/70
+          Signal: -36 dBm  Noise: -95 dBm
+          Bit Rate: 300.0 MBit/s
+          Encryption: unknown
+          Type: nl80211  HW Mode(s): 802.11a/n
+          Hardware: 168C:0033 168C:0205 [Generic MAC80211]
+          TX power offset: unknown
+          Frequency offset: unknown
+          Supports VAPs: yes  PHY name: phy0
+
+A8:40:41:1C:84:52  -37 dBm / -95 dBm (SNR 58)  880 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                80662 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                89778 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Throughput: 8.13
+A8:40:41:1C:84:52  -45 dBm / -95 dBm (SNR 50)  10 ms ago
+	RX: 300.0 MBit/s, MCS 15, 40MHz                84909 Pkts.
+	TX: 300.0 MBit/s, MCS 15, 40MHz                97284 Pkts.
+	expected throughput: 60.0 MBit/s
+
+Station a8:40:41:1c:84:52 (on wlan5-peer1)
+	inactive time:	20 ms
+	rx bytes:	12331212
+	rx packets:	84909
+	tx bytes:	129006919
+	tx packets:	97284
+	tx retries:	6286
+	tx failed:	0
+	rx drop misc:	26117
+	signal:  	-45 [-52, -47] dBm
+	signal avg:	-45 [-52, -48] dBm
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	8170617 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	2634225 us
+	airtime weight: 256
+	expected throughput:	58.684Mbps
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	0
+	beacon interval:0
+	connected time:	2676 seconds
+	associated at [boottime]:	1691.994s
+	associated at:	1725664783519 ms
+	current time:	1725667458911 ms
+	rx bytes:	12331212
+	rx packets:	84909
+	tx bytes:	129006919
+	tx packets:	97284
+	tx retries:	6286
+	tx failed:	0
+	rx drop misc:	26117
+	tx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	tx duration:	8170617 us
+	rx bitrate:	300.0 MBit/s MCS 15 40MHz short GI
+	rx duration:	2634225 us
+           CPU0       CPU1       
+  8:     162018     161772  MIPS GIC Local   1  timer
+  9:      41448          0  MIPS GIC  67  IPI call
+ 10:          0     129525  MIPS GIC  68  IPI call
+ 11:       6935          0  MIPS GIC  69  IPI resched
+ 12:          0       6770  MIPS GIC  70  IPI resched
+ 13:          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 14:         12          0  MIPS GIC  33  ttyS0
+ 15:      14105          0  MIPS GIC  10  1e100000.ethernet
+ 16:          3          0  MIPS GIC  30  mt7530
+ 18:          0          0    mt7530   1  mt7530-0:01
+ 19:          3          0    mt7530   2  mt7530-0:02
+ 20:          0          0    mt7530   3  mt7530-0:03
+ 21:          0          0    mt7530   4  mt7530-0:04
+ 22:          0          0  mt7621-gpio  18  keys
+ 23:          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 24:          0          0  MIPS GIC  26  1e004000.crypto
+ 25:     757110          0  MIPS GIC  32  ath9k
+ERR:          0
+--------------------------------------
+--------------------------------------
