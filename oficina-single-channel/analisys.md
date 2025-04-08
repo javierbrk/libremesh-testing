@@ -1,4 +1,6 @@
-# MT7915E Performance Comparison: AP-UP vs Mesh Mode
+[[_TOC_]]
+
+# MT7915E Performance Comparison: AP-UP vs Mesh Mode 40Mhz
 
 ## Overview of Configurations
 
@@ -134,3 +136,63 @@ The MT7915E chipset shows dramatically different interrupt patterns between the 
 
 The AP-UP mode generated 6.56 times more interrupts than mesh mode while delivering significantly lower throughput. This suggests the mesh mode is much more efficient in its hardware utilization, with fewer CPU interrupts needed per unit of data transmitted.
 
+
+
+Looking at both network test outputs you provided (`netperf_80_ap.txt` and `netperf_80_ap-up.txt`), I can see you're comparing Wi-Fi 6 (802.11ax) performance in two different configurations with the same MT7915E hardware. Let me analyze the key differences:
+
+# Comparison of WiFi 6 Performance: Standard AP vs AP-UP Mode 80 Mhz
+
+## Configuration Overview
+
+| Parameter | Standard AP Mode | AP-UP Mode |
+|-----------|-----------------|------------|
+| Device | MT7915E | MT7915E |
+| Mode | Client connected to AP | VLAN Master mode |
+| Channel | 48 (5.240 GHz) | 48 (5.240 GHz) |
+| Channel Width | HE80 (80MHz) | HE80 (80MHz) |
+| Interface | wlan1-sta | wlan1-peer1 |
+
+## Performance Differences
+
+| Metric | Standard AP Mode | AP-UP Mode | Difference |
+|--------|-----------------|------------|------------|
+| **Average Throughput** | 374.95 Mbps | 127.97 Mbps | -65.9% |
+| **PHY Rate (Tx)** | 907.4-1134.2 Mbps | 907.4-1020.6 Mbps | Similar rates |
+| **Signal Strength** | -42 to -48 dBm | -42 to -47 dBm | Similar |
+| **CPU Utilization** | ~58% send / ~41% receive | ~28% send / ~37% receive | Lower in AP-UP |
+
+## Throughput Analysis
+
+The most striking difference is in actual throughput:
+
+- **Standard AP Mode**: Shows consistently high throughput between 343-389 Mbps
+- **AP-UP Mode**: Shows dramatically lower throughput between 114-134 Mbps
+
+Despite both configurations showing similar PHY rates and signal strengths, the AP-UP mode delivers about 1/3 of the throughput of the standard AP mode.
+
+## Technical Observations
+
+1. **Modulation Scheme**:
+   - Both use HE-MCS (High Efficiency Modulation and Coding Scheme)
+   - Both reach MCS 9-11 with 80MHz channels 
+   - Both use 2 spatial streams (HE-NSS 2)
+
+2. **RX Rate Differences**:
+   - Standard AP mode shows consistent 1200.9 Mbps RX rate
+   - AP-UP mode often shows "24.0 MBit/s" as RX rate despite having HE capability
+
+3. **Packet Processing**:
+   - AP-UP mode shows significant "rx drop misc" counts (10,000+)
+   - Standard AP mode shows minimal "rx drop misc" counts
+
+4. **CPU Interrupts**:
+   - AP-UP mode shows significantly higher MT7915E interrupts (INT 29)
+   - This suggests more driver/hardware interaction overhead in AP-UP mode
+
+## Conclusion
+
+The AP-UP mode configuration introduces significant overhead that dramatically reduces throughput (by approximately 66%) compared to standard AP mode. This occurs despite both configurations having similar physical layer capabilities, signal strengths, and modulation schemes.
+
+The key bottleneck appears to be in the processing layer rather than the physical radio capabilities, with the AP-UP mode likely adding VLAN tagging and processing overhead that impacts performance. The regular pattern of packet drops and lower RX rate in AP-UP mode suggests protocol inefficiencies in this configuration.
+
+For maximum performance, the standard AP mode is clearly superior for this hardware.
