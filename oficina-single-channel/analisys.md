@@ -30,7 +30,6 @@
 | **Negotiated PHY Rate (Rx)** | 300 Mbps | 573.5 Mbps | +273.5 Mbps (+91%) |
 | **Signal Strength** | -45 to -47 dBm | -43 to -47 dBm | Similar |
 | **Modulation** | MCS 13-15, 40MHz | HE-MCS 8-11, 40MHz, HE-NSS 2 | Advanced in mesh mode |
-| **Spatial Streams** | 2 spatial streams ?? | 2 spatial streams (HE-NSS 2) | - |
 | **Guard Interval** | Not specified | Variable (HE-GI 0/1) | Adaptive in mesh mode |
 
 ## Detailed Analysis
