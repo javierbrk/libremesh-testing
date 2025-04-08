@@ -1,4 +1,7 @@
 [[_TOC_]]
+## Table of Contents
+ 1. [40Mhz](#mt7915e-performance-comparison-ap-up-vs-mesh-mode-40mhz)
+ 2. [80Mhz](#comparison-of-wifi-6-performance-standard-ap-vs-ap-up-mode-80-mhz)
 
 # MT7915E Performance Comparison: AP-UP vs Mesh Mode 40Mhz
 
