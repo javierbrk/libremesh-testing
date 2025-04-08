@@ -45,8 +45,8 @@ for canal in cfg.canales:
     for n in range(cfg.cantidad_mediciones):
         cmd = """ssh root@{} "iw wlan{}-{} station dump | mac2bat | grep -i {} -A 11" """.format(cfg.nodo_rx, cfg.radio, cfg.modo, cfg.nodo_tx.replace("-","_"))
         proc = subprocess.run(cmd, stdout=subprocess.PIPE, shell=True, encoding="utf-8")
-#        print("salida: {}".format(proc)) #exloggin.info
-#        print(proc.stdout)
+        print("ejecutando: {}  .....".format(cmd)) 
+        print(proc.stdout)
         mediciones.append(proc.stdout)
         time.sleep(1)
 
