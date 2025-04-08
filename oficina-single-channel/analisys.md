@@ -1,4 +1,7 @@
 [[_TOC_]]
+## Table of Contents
+ 1. [40Mhz mesh vs ap-up](#mt7915e-performance-comparison-ap-up-vs-mesh-mode-40mhz)
+ 2. [80Mhz ap vs ap-up](#comparison-of-wifi-6-performance-standard-ap-vs-ap-up-mode-80-mhz)
 
 # MT7915E Performance Comparison: AP-UP vs Mesh Mode 40Mhz
 
@@ -27,7 +30,6 @@
 | **Negotiated PHY Rate (Rx)** | 300 Mbps | 573.5 Mbps | +273.5 Mbps (+91%) |
 | **Signal Strength** | -45 to -47 dBm | -43 to -47 dBm | Similar |
 | **Modulation** | MCS 13-15, 40MHz | HE-MCS 8-11, 40MHz, HE-NSS 2 | Advanced in mesh mode |
-| **Spatial Streams** | 2 spatial streams ?? | 2 spatial streams (HE-NSS 2) | - |
 | **Guard Interval** | Not specified | Variable (HE-GI 0/1) | Adaptive in mesh mode |
 
 ## Detailed Analysis
