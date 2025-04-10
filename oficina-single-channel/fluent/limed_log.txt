@@ -1,0 +1,87 @@
+
+root@LiMe-103ced:~# limed &
+root@LiMe-103ced:~# wifi
+root@LiMe-103ced:~# [  424.628411] mt7915e 0000:01:00.0 wlan1-apup: left allmulticast mode
+[  424.634917] mt7915e 0000:01:00.0 wlan1-apup: left promiscuous mode
+[  424.641361] br-lan: port 6(wlan1-apup) entered disabled state
+[  425.171383] mt7915e 0000:01:00.0 wlan0-apup: left allmulticast mode
+[  425.177897] mt7915e 0000:01:00.0 wlan0-apup: left promiscuous mode
+[  425.184454] br-lan: port 5(wlan0-apup) entered disabled state
+[  427.309193] br-lan: port 5(wlan0-apup) entered blocking state
+[  427.315085] br-lan: port 5(wlan0-apup) entered disabled state
+[  427.320970] mt7915e 0000:01:00.0 wlan0-apup: entered allmulticast mode
+[  427.328222] mt7915e 0000:01:00.0 wlan0-apup: entered promiscuous mode
+[  427.338980] mt7915e 0000:01:00.0 wlan0-apup: left allmulticast mode
+[  427.345420] mt7915e 0000:01:00.0 wlan0-apup: left promiscuous mode
+[  427.351938] br-lan: port 5(wlan0-apup) entered disabled state
+[  427.511500] br-lan: port 5(wlan0-apup) entered blocking state
+[  427.517496] br-lan: port 5(wlan0-apup) entered disabled state
+[  427.523372] mt7915e 0000:01:00.0 wlan0-apup: entered allmulticast mode
+[  427.530769] mt7915e 0000:01:00.0 wlan0-apup: entered promiscuous mode
+[  427.537844] br-lan: port 5(wlan0-apup) entered blocking state
+[  427.543659] br-lan: port 5(wlan0-apup) entered forwarding state
+[  427.551938] br-lan: port 5(wlan0-apup) entered disabled state
+[  427.654548] br-lan: port 5(wlan0-apup) entered blocking state
+[  427.660353] br-lan: port 5(wlan0-apup) entered forwarding state
+Subscribing:    hostapd.wlan0-apup
+[  427.735552] br-lan: port 6(wlan1-apup) entered blocking state
+[  427.741362] br-lan: port 6(wlan1-apup) entered disabled state
+[  427.747469] mt7915e 0000:01:00.0 wlan1-apup: entered allmulticast mode
+[  427.754749] mt7915e 0000:01:00.0 wlan1-apup: entered promiscuous mode
+[  427.766735] mt7915e 0000:01:00.0 wlan1-apup: left allmulticast mode
+[  427.773082] mt7915e 0000:01:00.0 wlan1-apup: left promiscuous mode
+[  427.779856] br-lan: port 6(wlan1-apup) entered disabled state
+[  427.851920] br-lan: port 6(wlan1-apup) entered blocking state
+[  427.857812] br-lan: port 6(wlan1-apup) entered disabled state
+[  427.863627] mt7915e 0000:01:00.0 wlan1-apup: entered allmulticast mode
+[  427.870828] mt7915e 0000:01:00.0 wlan1-apup: entered promiscuous mode
+[  427.878064] br-lan: port 6(wlan1-apup) entered blocking state
+[  427.884056] br-lan: port 6(wlan1-apup) entered forwarding state
+Subscribing:    hostapd.wlan1-apup
+peerSubscriber: apup-newpeer    wlan1-peer1
+network add_dynamic
+                proto    =      static
+                name     =      lm_net_lm_net_wlan1_peer1_static
+                netmask  =      255.255.255.255
+                ipaddr   =      10.13.60.237
+                ifname   =      wlan1-peer1
+                auto     =      1
+lime.network.runProtocols(wlan1-peer1, ...)
+lime.proto.batadv.runOnDevice(wlan1-peer1, ...)
+lime.network.createVlan(wlan1-peer1, ...)
+                vid      =      29
+                type     =      8021ad
+                name     =      wlan1-peer1_29
+                ifname   =      wlan1-peer1
+network add_dynamic
+                proto    =      static
+                name     =      lm_net_lm_net_wlan1_peer1_29_static
+                netmask  =      255.255.255.255
+                ipaddr   =      10.13.60.237
+                ifname   =      wlan1-peer1_29
+                auto     =      1
+[  428.437007] batman_adv: bat0: Adding interface: wlan1-peer1_29
+[  428.442910] batman_adv: bat0: The MTU of interface wlan1-peer1_29 is too small (1500) to handle the transport of batman-adv packets. Packets going over this interface will be fragmented on layer2 which could impact the performance. Setting the MTU to 1532 would solve the problem.
+[  428.467836] batman_adv: bat0: Interface activated: wlan1-peer1_29
+lime.proto.babeld.runOnDevice(wlan1-peer1, ...)
+lime.network.createVlan(wlan1-peer1, ...)
+                vid      =      17
+                type     =      8021ad
+                name     =      wlan1-peer1_17
+                ifname   =      wlan1-peer1
+[  428.505318] batman_adv: The newly added mac address (c4:4b:d1:c1:00:59) already exists on: wlan1-peer1_29
+[  428.515053] batman_adv: It is strongly recommended to keep mac addresses unique to avoid problems!
+network add_dynamic
+                proto    =      static
+                name     =      lm_net_lm_net_wlan1_peer1_17_static
+                netmask  =      255.255.255.255
+                ipaddr   =      10.13.60.237
+                ifname   =      wlan1-peer1_17
+                auto     =      1
+
+root@LiMe-103ced:~#
+root@LiMe-103ced:~#
+root@LiMe-103ced:~# batctl if
+lan1_29: active
+wlan1-peer1_29: active
+root@LiMe-103ced:~#
