@@ -85,3 +85,76 @@ root@LiMe-103ced:~# batctl if
 lan1_29: active
 wlan1-peer1_29: active
 root@LiMe-103ced:~#
+
+root@LiMe-103ced:~# brctl show
+bridge name	bridge id		STP enabled	interfaces
+br-lan		7fff.6e4a6ecb577e	no		bat0
+							lan2
+							wlan1-apup
+							wlan0-apup
+							lan3
+							lan1
+root@LiMe-103ced:~# brctl delif br-lan wlan1-apup
+brctl: invalid argument 'deklif' to 'brctl'
+root@LiMe-103ced:~# brctl delif br-lan wlan1-apup
+root@LiMe-103ced:~# brctl delif br-lan wlan0-apup
+root@LiMe-103ced:~# brctl show
+bridge name	bridge id		STP enabled	interfaces
+br-lan		7fff.6e4a6ecb577e	no		bat0
+							lan2
+							lan3
+							lan1
+root@LiMe-103ced:~# brctl show
+bridge name	bridge id		STP enabled	interfaces
+br-lan		7fff.6e4a6ecb577e	no		bat0
+							lan2
+							lan3
+							lan1
+root@LiMe-103ced:~# batctl if
+lan1_29: active
+wlan1-peer1_29: active
+root@LiMe-103ced:~# 
+
+
+
+root@LiMe-10194f:~# netperf -D1 -H LiMe-103ced -cC
+MIGRATED TCP STREAM TEST from 0.0.0.0 (0.0) port 0 AF_INET to LiMe-103ced.thisnode.info (10.) port 0 AF_INET : demo
+Interim result:   89.32 10^6bits/s over 1.032 seconds ending at 1725834631.000
+Interim result:   96.87 10^6bits/s over 1.031 seconds ending at 1725834632.000
+Interim result:   97.66 10^6bits/s over 1.001 seconds ending at 1725834633.000
+Interim result:   92.17 10^6bits/s over 1.061 seconds ending at 1725834635.000
+Interim result:   98.76 10^6bits/s over 1.027 seconds ending at 1725834636.000
+Interim result:   95.57 10^6bits/s over 1.046 seconds ending at 1725834637.000
+Interim result:   97.74 10^6bits/s over 1.049 seconds ending at 1725834638.000
+Interim result:   97.03 10^6bits/s over 1.008 seconds ending at 1725834639.000
+Interim result:   91.92 10^6bits/s over 1.055 seconds ending at 1725834640.000
+Interim result:   96.01 10^6bits/s over 0.691 seconds ending at 1725834640.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.14        93.97   35.97    70.94    125.433  247.404 
+root@LiMe-10194f:~# netperf -D1 -H fe80::c64b:d1ff:fec1:59%wlan1-peer2 -Cc
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%wlan1-peer2 () port 0 AF_INET6 : demo
+Interim result:  147.28 10^6bits/s over 1.023 seconds ending at 1725834658.000
+Interim result:  151.81 10^6bits/s over 1.018 seconds ending at 1725834659.000
+Interim result:  146.58 10^6bits/s over 1.036 seconds ending at 1725834660.000
+Interim result:  142.27 10^6bits/s over 1.030 seconds ending at 1725834661.000
+Interim result:  141.50 10^6bits/s over 1.006 seconds ending at 1725834662.000
+Interim result:  138.51 10^6bits/s over 1.021 seconds ending at 1725834663.000
+Interim result:  141.97 10^6bits/s over 1.018 seconds ending at 1725834664.000
+Interim result:  146.50 10^6bits/s over 1.025 seconds ending at 1725834665.000
+Interim result:  148.18 10^6bits/s over 1.018 seconds ending at 1725834666.000
+Interim result:  149.28 10^6bits/s over 0.805 seconds ending at 1725834667.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.08       144.22   28.39    37.46    64.498  85.119 
+root@LiMe-10194f:~# 
+
+
+
+
