@@ -1,0 +1,27 @@
+### WiFi general options
+
+config lime wifi
+
+
+config wifi 'radio0'
+        option disabled '0'
+        option txpower '8'
+
+config wifi 'radio1'
+        option txpower '8'
+        option channel '48'
+        option htmode 'HE80'
+        option disabled '0'
+        option channel '48'
+        option distance '10'
+        option noscan '1'
+        option cell_density '0'
+        option legacy_rates '0'
+        option he_bss_color '64'
+
+config net
+        option linux_name 'lan3'
+        list protocols 'wan'
+        list protocols 'static'				# Set up a static IP (both IPv4 and IPv6 supported)
+        option static_ipv4 '192.168.126.187/24'
+        option static_gateway_ipv4 '192.168.126.254'	# in  
