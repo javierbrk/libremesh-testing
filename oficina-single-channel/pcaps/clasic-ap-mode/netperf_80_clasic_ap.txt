@@ -1,0 +1,1555 @@
+{
+	"radio0": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "1e140000.pcie/pci0000:00/0000:00:02.0/0000:01:00.0",
+			"band": "2g",
+			"channel": "11",
+			"htmode": "HT20",
+			"distance": "1000",
+			"noscan": "1",
+			"noscan": true,
+			"txpower": 8,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "lm_wlan0_ap_radio0",
+				"ifname": "wlan0-ap",
+				"config": {
+					"mode": "ap",
+					"ifname": "wlan0-ap",
+					"ssid": "LibreMesh.org",
+					"mode": "ap",
+					"network": [
+						"lan"
+					],
+					"disabled": false
+				},
+				"vlans": [
+					
+				],
+				"stations": [
+					
+				]
+			},
+			{
+				"section": "lm_wlan0_apname_radio0",
+				"ifname": "wlan0-apname",
+				"config": {
+					"mode": "ap",
+					"ifname": "wlan0-apname",
+					"ssid": "LibreMesh.org/LiMe-10194f",
+					"mode": "ap",
+					"network": [
+						"lan"
+					],
+					"disabled": false
+				},
+				"vlans": [
+					
+				],
+				"stations": [
+					
+				]
+			},
+			{
+				"section": "lm_wlan0_mesh_radio0",
+				"ifname": "wlan0-mesh",
+				"config": {
+					"mode": "mesh",
+					"ifname": "wlan0-mesh",
+					"mcast_rate": 24000,
+					"mesh_fwding": false,
+					"mesh_id": "LiMe",
+					"mode": "mesh",
+					"network": [
+						"lm_net_wlan0_mesh"
+					],
+					"disabled": false
+				},
+				"vlans": [
+					
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	},
+	"radio1": {
+		"up": true,
+		"pending": false,
+		"autostart": true,
+		"disabled": false,
+		"retry_setup_failed": false,
+		"config": {
+			"path": "1e140000.pcie/pci0000:00/0000:00:02.0/0000:01:00.0+1",
+			"band": "5g",
+			"channel": "48",
+			"htmode": "HE80",
+			"distance": "10",
+			"noscan": "1",
+			"noscan": true,
+			"cell_density": 0,
+			"legacy_rates": false,
+			"he_bss_color": 64,
+			"txpower": 8,
+			"disabled": false
+		},
+		"interfaces": [
+			{
+				"section": "lm_wlan1_ap_radio1",
+				"ifname": "wlan1-ap",
+				"config": {
+					"mode": "ap",
+					"ifname": "wlan1-ap",
+					"ssid": "LibremeshAP",
+					"mode": "ap",
+					"network": [
+						"lan"
+					],
+					"disabled": false
+				},
+				"vlans": [
+					
+				],
+				"stations": [
+					
+				]
+			}
+		]
+	}
+}
+{
+	"devices": [
+		"wlan1-ap",
+		"wlan0-ap",
+		"wlan0-apname",
+		"wlan0-mesh"
+	]
+}
+Iteration 1 fe80::c64b:d1ff:fec1:59%br-lan 
+wlan0-ap  ESSID: "LibreMesh.org"
+          Access Point: C4:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-apname ESSID: "LibreMesh.org/LiMe-10194f"
+          Access Point: C6:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-mesh ESSID: "LiMe"
+          Access Point: C2:4B:D1:C0:00:6D
+          Mode: Mesh Point  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1-ap  ESSID: "LibremeshAP"
+          Access Point: C4:4B:D1:C1:00:6D
+          Mode: Master  Channel: 48 (5.240 GHz)  HT Mode: HE80
+          Center Channel 1: 42 2: unknown
+          Tx-Power: 8 dBm  Link Quality: 63/70
+          Signal: -47 dBm  Noise: unknown
+          Bit Rate: 1134.2 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+
+C4:4B:D1:C1:00:59  -47 dBm / unknown (SNR -47)  260 ms ago
+	RX: 6.0 MBit/s                                 19949 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0    495177 Pkts.
+	expected throughput: unknown
+
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%br-lan () port 0 AF_INET6 : demo
+Interim result:  306.25 10^6bits/s over 1.000 seconds ending at 1744829001.000
+Interim result:  329.10 10^6bits/s over 1.012 seconds ending at 1744829002.000
+Interim result:  322.31 10^6bits/s over 1.021 seconds ending at 1744829003.000
+Interim result:  331.58 10^6bits/s over 1.000 seconds ending at 1744829004.000
+Interim result:  295.91 10^6bits/s over 1.120 seconds ending at 1744829005.000
+Interim result:  349.17 10^6bits/s over 1.001 seconds ending at 1744829006.000
+Interim result:  320.80 10^6bits/s over 1.088 seconds ending at 1744829007.000
+Interim result:  324.54 10^6bits/s over 1.000 seconds ending at 1744829008.000
+Interim result:  343.87 10^6bits/s over 1.005 seconds ending at 1744829009.000
+Interim result:  354.52 10^6bits/s over 0.752 seconds ending at 1744829010.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.01       326.52   60.38    34.72    60.594  34.839 
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  40 ms ago
+	RX: 1200.9 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 0, HE-DCM 0     31773 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0    782340 Pkts.
+	expected throughput: unknown
+
+Station c4:4b:d1:c1:00:59 (on wlan1-ap)
+	inactive time:	50 ms
+	rx bytes:	2754464
+	rx packets:	31773
+	tx bytes:	1179546637
+	tx packets:	782340
+	tx retries:	0
+	tx failed:	0
+	rx drop misc:	0
+	signal:  	-46 [-47, -51] dBm
+	signal avg:	-46 [-47, -50] dBm
+	tx bitrate:	1134.2 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 1 HE-DCM 0
+	tx duration:	22564667 us
+	rx bitrate:	1200.9 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 0 HE-DCM 0
+	rx duration:	2687790 us
+	last ack signal:-46 dBm
+	avg ack signal:	-45 dBm
+	airtime weight: 256
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	long
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	715 seconds
+	associated at [boottime]:	9409.304s
+	associated at:	1744828294486 ms
+	current time:	1744829010100 ms
+           CPU0       CPU1       CPU2       CPU3       
+  8:     325788     320819     323332     325567  MIPS GIC Local   1  timer
+  9:     466409          0          0          0  MIPS GIC  63  IPI call
+ 10:          0     813455          0          0  MIPS GIC  64  IPI call
+ 11:          0          0     725707          0  MIPS GIC  65  IPI call
+ 12:          0          0          0     836504  MIPS GIC  66  IPI call
+ 13:      11174          0          0          0  MIPS GIC  67  IPI resched
+ 14:          0      10734          0          0  MIPS GIC  68  IPI resched
+ 15:          0          0      12663          0  MIPS GIC  69  IPI resched
+ 16:          0          0          0      32401  MIPS GIC  70  IPI resched
+ 17:          0          0          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 18:         12          0          0          0  MIPS GIC  33  ttyS0
+ 19:      75295          0          0          0  MIPS GIC  10  1e100000.ethernet
+ 20:          3          0          0          0  MIPS GIC  30  mt7530
+ 21:          0          0          0          0    mt7530   0  mt7530-0:00
+ 22:          3          0          0          0    mt7530   1  mt7530-0:01
+ 23:          0          0          0          0    mt7530   2  mt7530-0:02
+ 24:          0          0          0          0    mt7530   3  mt7530-0:03
+ 25:          0          0          0          0    mt7530   4  mt7530-0:04
+ 26:          0          0          0          0  mt7621-gpio  18  keys
+ 27:          0          0          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 28:          0          0          0          0  MIPS GIC  26  1e004000.crypto
+ 29:    1573960          0          0          0  MIPS GIC  32  mt7915e
+ERR:       4586
+--------------------------------------
+--------------------------------------
+Iteration 2 fe80::c64b:d1ff:fec1:59%br-lan 
+wlan0-ap  ESSID: "LibreMesh.org"
+          Access Point: C4:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-apname ESSID: "LibreMesh.org/LiMe-10194f"
+          Access Point: C6:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-mesh ESSID: "LiMe"
+          Access Point: C2:4B:D1:C0:00:6D
+          Mode: Mesh Point  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1-ap  ESSID: "LibremeshAP"
+          Access Point: C4:4B:D1:C1:00:6D
+          Mode: Master  Channel: 48 (5.240 GHz)  HT Mode: HE80
+          Center Channel 1: 42 2: unknown
+          Tx-Power: 8 dBm  Link Quality: 64/70
+          Signal: -46 dBm  Noise: unknown
+          Bit Rate: 1134.2 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  1310 ms ago
+	RX: 24.0 MBit/s                                31773 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0    782340 Pkts.
+	expected throughput: unknown
+
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%br-lan () port 0 AF_INET6 : demo
+Interim result:  327.59 10^6bits/s over 1.000 seconds ending at 1744829012.000
+Interim result:  354.52 10^6bits/s over 1.007 seconds ending at 1744829013.000
+Interim result:  341.91 10^6bits/s over 1.037 seconds ending at 1744829014.000
+Interim result:  341.73 10^6bits/s over 1.000 seconds ending at 1744829015.000
+Interim result:  346.48 10^6bits/s over 1.001 seconds ending at 1744829016.000
+Interim result:  341.55 10^6bits/s over 1.014 seconds ending at 1744829017.000
+Interim result:  335.28 10^6bits/s over 1.019 seconds ending at 1744829018.000
+Interim result:  366.23 10^6bits/s over 1.000 seconds ending at 1744829019.000
+Interim result:  374.31 10^6bits/s over 1.008 seconds ending at 1744829020.000
+Interim result:  347.23 10^6bits/s over 0.913 seconds ending at 1744829021.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.02       346.88   61.95    37.65    58.524  35.564 
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  10 ms ago
+	RX: 1200.9 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 0, HE-DCM 0     43769 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   1087852 Pkts.
+	expected throughput: unknown
+
+Station c4:4b:d1:c1:00:59 (on wlan1-ap)
+	inactive time:	30 ms
+	rx bytes:	3787448
+	rx packets:	43769
+	tx bytes:	1640390557
+	tx packets:	1087852
+	tx retries:	0
+	tx failed:	0
+	rx drop misc:	0
+	signal:  	-46 [-47, -51] dBm
+	signal avg:	-46 [-47, -51] dBm
+	tx bitrate:	1134.2 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 1 HE-DCM 0
+	tx duration:	30111976 us
+	rx bitrate:	1200.9 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 0 HE-DCM 0
+	rx duration:	3590180 us
+	last ack signal:-46 dBm
+	avg ack signal:	-45 dBm
+	airtime weight: 256
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	long
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	727 seconds
+	associated at [boottime]:	9409.304s
+	associated at:	1744828294486 ms
+	current time:	1744829021487 ms
+           CPU0       CPU1       CPU2       CPU3       
+  8:     326854     321863     324460     326446  MIPS GIC Local   1  timer
+  9:     467130          0          0          0  MIPS GIC  63  IPI call
+ 10:          0     814965          0          0  MIPS GIC  64  IPI call
+ 11:          0          0     735490          0  MIPS GIC  65  IPI call
+ 12:          0          0          0     857799  MIPS GIC  66  IPI call
+ 13:      11191          0          0          0  MIPS GIC  67  IPI resched
+ 14:          0      10746          0          0  MIPS GIC  68  IPI resched
+ 15:          0          0      12808          0  MIPS GIC  69  IPI resched
+ 16:          0          0          0      33004  MIPS GIC  70  IPI resched
+ 17:          0          0          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 18:         12          0          0          0  MIPS GIC  33  ttyS0
+ 19:      75345          0          0          0  MIPS GIC  10  1e100000.ethernet
+ 20:          3          0          0          0  MIPS GIC  30  mt7530
+ 21:          0          0          0          0    mt7530   0  mt7530-0:00
+ 22:          3          0          0          0    mt7530   1  mt7530-0:01
+ 23:          0          0          0          0    mt7530   2  mt7530-0:02
+ 24:          0          0          0          0    mt7530   3  mt7530-0:03
+ 25:          0          0          0          0    mt7530   4  mt7530-0:04
+ 26:          0          0          0          0  mt7621-gpio  18  keys
+ 27:          0          0          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 28:          0          0          0          0  MIPS GIC  26  1e004000.crypto
+ 29:    1588636          0          0          0  MIPS GIC  32  mt7915e
+ERR:       4628
+--------------------------------------
+--------------------------------------
+Iteration 3 fe80::c64b:d1ff:fec1:59%br-lan 
+wlan0-ap  ESSID: "LibreMesh.org"
+          Access Point: C4:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-apname ESSID: "LibreMesh.org/LiMe-10194f"
+          Access Point: C6:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-mesh ESSID: "LiMe"
+          Access Point: C2:4B:D1:C0:00:6D
+          Mode: Mesh Point  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1-ap  ESSID: "LibremeshAP"
+          Access Point: C4:4B:D1:C1:00:6D
+          Mode: Master  Channel: 48 (5.240 GHz)  HT Mode: HE80
+          Center Channel 1: 42 2: unknown
+          Tx-Power: 8 dBm  Link Quality: 64/70
+          Signal: -46 dBm  Noise: unknown
+          Bit Rate: 1134.2 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  1290 ms ago
+	RX: 24.0 MBit/s                                43769 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   1087852 Pkts.
+	expected throughput: unknown
+
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%br-lan () port 0 AF_INET6 : demo
+Interim result:  347.56 10^6bits/s over 1.000 seconds ending at 1744829023.000
+Interim result:  376.50 10^6bits/s over 1.004 seconds ending at 1744829024.000
+Interim result:  314.08 10^6bits/s over 1.199 seconds ending at 1744829026.000
+Interim result:  349.34 10^6bits/s over 1.001 seconds ending at 1744829027.000
+Interim result:  354.95 10^6bits/s over 1.003 seconds ending at 1744829028.000
+Interim result:  371.49 10^6bits/s over 1.001 seconds ending at 1744829029.000
+Interim result:  367.67 10^6bits/s over 1.011 seconds ending at 1744829030.000
+Interim result:  372.02 10^6bits/s over 1.001 seconds ending at 1744829031.000
+Interim result:  342.49 10^6bits/s over 1.086 seconds ending at 1744829032.000
+Interim result:  372.46 10^6bits/s over 0.696 seconds ending at 1744829032.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.01       355.21   64.50    37.18    59.504  34.299 
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  10 ms ago
+	RX: 1200.9 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 0, HE-DCM 0     55635 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   1400135 Pkts.
+	expected throughput: unknown
+
+Station c4:4b:d1:c1:00:59 (on wlan1-ap)
+	inactive time:	30 ms
+	rx bytes:	4809316
+	rx packets:	55635
+	tx bytes:	2111532495
+	tx packets:	1400135
+	tx retries:	0
+	tx failed:	0
+	rx drop misc:	0
+	signal:  	-46 [-47, -51] dBm
+	signal avg:	-46 [-47, -50] dBm
+	tx bitrate:	1134.2 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 1 HE-DCM 0
+	tx duration:	37753269 us
+	rx bitrate:	1200.9 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 0 HE-DCM 0
+	rx duration:	4484612 us
+	last ack signal:-46 dBm
+	avg ack signal:	-45 dBm
+	airtime weight: 256
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	long
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	738 seconds
+	associated at [boottime]:	9409.304s
+	associated at:	1744828294487 ms
+	current time:	1744829032857 ms
+           CPU0       CPU1       CPU2       CPU3       
+  8:     327928     322910     325536     327444  MIPS GIC Local   1  timer
+  9:     467990          0          0          0  MIPS GIC  63  IPI call
+ 10:          0     817145          0          0  MIPS GIC  64  IPI call
+ 11:          0          0     746637          0  MIPS GIC  65  IPI call
+ 12:          0          0          0     877380  MIPS GIC  66  IPI call
+ 13:      11227          0          0          0  MIPS GIC  67  IPI resched
+ 14:          0      10766          0          0  MIPS GIC  68  IPI resched
+ 15:          0          0      12919          0  MIPS GIC  69  IPI resched
+ 16:          0          0          0      33839  MIPS GIC  70  IPI resched
+ 17:          0          0          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 18:         12          0          0          0  MIPS GIC  33  ttyS0
+ 19:      75417          0          0          0  MIPS GIC  10  1e100000.ethernet
+ 20:          3          0          0          0  MIPS GIC  30  mt7530
+ 21:          0          0          0          0    mt7530   0  mt7530-0:00
+ 22:          3          0          0          0    mt7530   1  mt7530-0:01
+ 23:          0          0          0          0    mt7530   2  mt7530-0:02
+ 24:          0          0          0          0    mt7530   3  mt7530-0:03
+ 25:          0          0          0          0    mt7530   4  mt7530-0:04
+ 26:          0          0          0          0  mt7621-gpio  18  keys
+ 27:          0          0          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 28:          0          0          0          0  MIPS GIC  26  1e004000.crypto
+ 29:    1603054          0          0          0  MIPS GIC  32  mt7915e
+ERR:       4666
+--------------------------------------
+--------------------------------------
+Iteration 4 fe80::c64b:d1ff:fec1:59%br-lan 
+wlan0-ap  ESSID: "LibreMesh.org"
+          Access Point: C4:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-apname ESSID: "LibreMesh.org/LiMe-10194f"
+          Access Point: C6:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-mesh ESSID: "LiMe"
+          Access Point: C2:4B:D1:C0:00:6D
+          Mode: Mesh Point  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1-ap  ESSID: "LibremeshAP"
+          Access Point: C4:4B:D1:C1:00:6D
+          Mode: Master  Channel: 48 (5.240 GHz)  HT Mode: HE80
+          Center Channel 1: 42 2: unknown
+          Tx-Power: 8 dBm  Link Quality: 64/70
+          Signal: -46 dBm  Noise: unknown
+          Bit Rate: 1134.2 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  1310 ms ago
+	RX: 24.0 MBit/s                                55635 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   1400135 Pkts.
+	expected throughput: unknown
+
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%br-lan () port 0 AF_INET6 : demo
+Interim result:  276.57 10^6bits/s over 1.000 seconds ending at 1744829035.000
+Interim result:  294.98 10^6bits/s over 1.001 seconds ending at 1744829036.000
+Interim result:  317.53 10^6bits/s over 1.008 seconds ending at 1744829037.000
+Interim result:  319.05 10^6bits/s over 1.003 seconds ending at 1744829038.000
+Interim result:  313.63 10^6bits/s over 1.018 seconds ending at 1744829039.000
+Interim result:  305.97 10^6bits/s over 1.025 seconds ending at 1744829040.000
+Interim result:  304.05 10^6bits/s over 1.007 seconds ending at 1744829041.000
+Interim result:  304.02 10^6bits/s over 1.000 seconds ending at 1744829042.000
+Interim result:  379.62 10^6bits/s over 1.001 seconds ending at 1744829043.000
+Interim result:  377.45 10^6bits/s over 0.938 seconds ending at 1744829044.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.01       318.69   57.09    34.74    58.700  35.724 
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  10 ms ago
+	RX: 1200.9 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 0, HE-DCM 0     67023 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   1680520 Pkts.
+	expected throughput: unknown
+
+Station c4:4b:d1:c1:00:59 (on wlan1-ap)
+	inactive time:	20 ms
+	rx bytes:	5790012
+	rx packets:	67023
+	tx bytes:	2534236229
+	tx packets:	1680520
+	tx retries:	0
+	tx failed:	0
+	rx drop misc:	0
+	signal:  	-46 [-47, -51] dBm
+	signal avg:	-46 [-47, -50] dBm
+	tx bitrate:	1134.2 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 1 HE-DCM 0
+	tx duration:	45134545 us
+	rx bitrate:	1200.9 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 0 HE-DCM 0
+	rx duration:	5386496 us
+	last ack signal:-46 dBm
+	avg ack signal:	-45 dBm
+	airtime weight: 256
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	long
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	750 seconds
+	associated at [boottime]:	9409.304s
+	associated at:	1744828294486 ms
+	current time:	1744829044244 ms
+           CPU0       CPU1       CPU2       CPU3       
+  8:     328933     323962     326619     328388  MIPS GIC Local   1  timer
+  9:     468766          0          0          0  MIPS GIC  63  IPI call
+ 10:          0     822442          0          0  MIPS GIC  64  IPI call
+ 11:          0          0     754144          0  MIPS GIC  65  IPI call
+ 12:          0          0          0     896881  MIPS GIC  66  IPI call
+ 13:      11235          0          0          0  MIPS GIC  67  IPI resched
+ 14:          0      10804          0          0  MIPS GIC  68  IPI resched
+ 15:          0          0      12991          0  MIPS GIC  69  IPI resched
+ 16:          0          0          0      34854  MIPS GIC  70  IPI resched
+ 17:          0          0          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 18:         12          0          0          0  MIPS GIC  33  ttyS0
+ 19:      75544          0          0          0  MIPS GIC  10  1e100000.ethernet
+ 20:          3          0          0          0  MIPS GIC  30  mt7530
+ 21:          0          0          0          0    mt7530   0  mt7530-0:00
+ 22:          3          0          0          0    mt7530   1  mt7530-0:01
+ 23:          0          0          0          0    mt7530   2  mt7530-0:02
+ 24:          0          0          0          0    mt7530   3  mt7530-0:03
+ 25:          0          0          0          0    mt7530   4  mt7530-0:04
+ 26:          0          0          0          0  mt7621-gpio  18  keys
+ 27:          0          0          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 28:          0          0          0          0  MIPS GIC  26  1e004000.crypto
+ 29:    1619594          0          0          0  MIPS GIC  32  mt7915e
+ERR:       4742
+--------------------------------------
+--------------------------------------
+Iteration 5 fe80::c64b:d1ff:fec1:59%br-lan 
+wlan0-ap  ESSID: "LibreMesh.org"
+          Access Point: C4:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-apname ESSID: "LibreMesh.org/LiMe-10194f"
+          Access Point: C6:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-mesh ESSID: "LiMe"
+          Access Point: C2:4B:D1:C0:00:6D
+          Mode: Mesh Point  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1-ap  ESSID: "LibremeshAP"
+          Access Point: C4:4B:D1:C1:00:6D
+          Mode: Master  Channel: 48 (5.240 GHz)  HT Mode: HE80
+          Center Channel 1: 42 2: unknown
+          Tx-Power: 8 dBm  Link Quality: 64/70
+          Signal: -46 dBm  Noise: unknown
+          Bit Rate: 1134.2 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  1290 ms ago
+	RX: 24.0 MBit/s                                67023 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   1680520 Pkts.
+	expected throughput: unknown
+
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%br-lan () port 0 AF_INET6 : demo
+Interim result:  351.96 10^6bits/s over 1.006 seconds ending at 1744829046.000
+Interim result:  335.32 10^6bits/s over 1.050 seconds ending at 1744829047.000
+Interim result:  352.87 10^6bits/s over 1.000 seconds ending at 1744829048.000
+Interim result:  352.68 10^6bits/s over 1.000 seconds ending at 1744829049.000
+Interim result:  316.71 10^6bits/s over 1.114 seconds ending at 1744829050.000
+Interim result:  339.81 10^6bits/s over 1.005 seconds ending at 1744829051.000
+Interim result:  301.93 10^6bits/s over 1.125 seconds ending at 1744829052.000
+Interim result:  311.67 10^6bits/s over 1.000 seconds ending at 1744829053.000
+Interim result:  296.98 10^6bits/s over 1.050 seconds ending at 1744829054.000
+Interim result:  319.62 10^6bits/s over 0.651 seconds ending at 1744829055.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.01       327.48   59.00    31.87    59.037  31.889 
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  30 ms ago
+	RX: 1200.9 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 0, HE-DCM 0     79700 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   1968693 Pkts.
+	expected throughput: unknown
+
+Station c4:4b:d1:c1:00:59 (on wlan1-ap)
+	inactive time:	40 ms
+	rx bytes:	6881562
+	rx packets:	79700
+	tx bytes:	2968668931
+	tx packets:	1968693
+	tx retries:	0
+	tx failed:	0
+	rx drop misc:	0
+	signal:  	-46 [-47, -51] dBm
+	signal avg:	-46 [-47, -50] dBm
+	tx bitrate:	1134.2 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 1 HE-DCM 0
+	tx duration:	52459761 us
+	rx bitrate:	1200.9 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 0 HE-DCM 0
+	rx duration:	6347913 us
+	last ack signal:-46 dBm
+	avg ack signal:	-45 dBm
+	airtime weight: 256
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	long
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	761 seconds
+	associated at [boottime]:	9409.304s
+	associated at:	1744828294486 ms
+	current time:	1744829055632 ms
+           CPU0       CPU1       CPU2       CPU3       
+  8:     329995     324996     327706     329329  MIPS GIC Local   1  timer
+  9:     469808          0          0          0  MIPS GIC  63  IPI call
+ 10:          0     826118          0          0  MIPS GIC  64  IPI call
+ 11:          0          0     762795          0  MIPS GIC  65  IPI call
+ 12:          0          0          0     917226  MIPS GIC  66  IPI call
+ 13:      11259          0          0          0  MIPS GIC  67  IPI resched
+ 14:          0      10815          0          0  MIPS GIC  68  IPI resched
+ 15:          0          0      13069          0  MIPS GIC  69  IPI resched
+ 16:          0          0          0      35475  MIPS GIC  70  IPI resched
+ 17:          0          0          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 18:         12          0          0          0  MIPS GIC  33  ttyS0
+ 19:      75625          0          0          0  MIPS GIC  10  1e100000.ethernet
+ 20:          3          0          0          0  MIPS GIC  30  mt7530
+ 21:          0          0          0          0    mt7530   0  mt7530-0:00
+ 22:          3          0          0          0    mt7530   1  mt7530-0:01
+ 23:          0          0          0          0    mt7530   2  mt7530-0:02
+ 24:          0          0          0          0    mt7530   3  mt7530-0:03
+ 25:          0          0          0          0    mt7530   4  mt7530-0:04
+ 26:          0          0          0          0  mt7621-gpio  18  keys
+ 27:          0          0          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 28:          0          0          0          0  MIPS GIC  26  1e004000.crypto
+ 29:    1636459          0          0          0  MIPS GIC  32  mt7915e
+ERR:       4800
+--------------------------------------
+--------------------------------------
+Iteration 6 fe80::c64b:d1ff:fec1:59%br-lan 
+wlan0-ap  ESSID: "LibreMesh.org"
+          Access Point: C4:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-apname ESSID: "LibreMesh.org/LiMe-10194f"
+          Access Point: C6:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-mesh ESSID: "LiMe"
+          Access Point: C2:4B:D1:C0:00:6D
+          Mode: Mesh Point  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1-ap  ESSID: "LibremeshAP"
+          Access Point: C4:4B:D1:C1:00:6D
+          Mode: Master  Channel: 48 (5.240 GHz)  HT Mode: HE80
+          Center Channel 1: 42 2: unknown
+          Tx-Power: 8 dBm  Link Quality: 64/70
+          Signal: -46 dBm  Noise: unknown
+          Bit Rate: 1134.2 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  1310 ms ago
+	RX: 24.0 MBit/s                                79700 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   1968693 Pkts.
+	expected throughput: unknown
+
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%br-lan () port 0 AF_INET6 : demo
+Interim result:  320.33 10^6bits/s over 1.000 seconds ending at 1744829057.000
+Interim result:  366.24 10^6bits/s over 1.000 seconds ending at 1744829058.000
+Interim result:  362.62 10^6bits/s over 1.010 seconds ending at 1744829059.000
+Interim result:  369.09 10^6bits/s over 1.000 seconds ending at 1744829060.000
+Interim result:  374.64 10^6bits/s over 1.000 seconds ending at 1744829061.000
+Interim result:  358.29 10^6bits/s over 1.046 seconds ending at 1744829063.000
+Interim result:  343.76 10^6bits/s over 1.042 seconds ending at 1744829064.000
+Interim result:  359.27 10^6bits/s over 1.001 seconds ending at 1744829065.000
+Interim result:  361.41 10^6bits/s over 1.001 seconds ending at 1744829066.000
+Interim result:  350.90 10^6bits/s over 0.899 seconds ending at 1744829066.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.01       356.49   62.82    38.87    57.745  35.732 
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  20 ms ago
+	RX: 1200.9 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 0, HE-DCM 0     91472 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   2282072 Pkts.
+	expected throughput: unknown
+
+Station c4:4b:d1:c1:00:59 (on wlan1-ap)
+	inactive time:	30 ms
+	rx bytes:	7895282
+	rx packets:	91472
+	tx bytes:	3441461605
+	tx packets:	2282072
+	tx retries:	0
+	tx failed:	0
+	rx drop misc:	0
+	signal:  	-46 [-47, -51] dBm
+	signal avg:	-46 [-47, -50] dBm
+	tx bitrate:	1134.2 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 1 HE-DCM 0
+	tx duration:	60075587 us
+	rx bitrate:	1200.9 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 0 HE-DCM 0
+	rx duration:	7229810 us
+	last ack signal:-46 dBm
+	avg ack signal:	-45 dBm
+	airtime weight: 256
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	long
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	772 seconds
+	associated at [boottime]:	9409.304s
+	associated at:	1744828294486 ms
+	current time:	1744829067003 ms
+           CPU0       CPU1       CPU2       CPU3       
+  8:     331127     326114     328811     330381  MIPS GIC Local   1  timer
+  9:     470814          0          0          0  MIPS GIC  63  IPI call
+ 10:          0     827983          0          0  MIPS GIC  64  IPI call
+ 11:          0          0     773974          0  MIPS GIC  65  IPI call
+ 12:          0          0          0     937228  MIPS GIC  66  IPI call
+ 13:      11279          0          0          0  MIPS GIC  67  IPI resched
+ 14:          0      10843          0          0  MIPS GIC  68  IPI resched
+ 15:          0          0      13173          0  MIPS GIC  69  IPI resched
+ 16:          0          0          0      36176  MIPS GIC  70  IPI resched
+ 17:          0          0          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 18:         12          0          0          0  MIPS GIC  33  ttyS0
+ 19:      75689          0          0          0  MIPS GIC  10  1e100000.ethernet
+ 20:          3          0          0          0  MIPS GIC  30  mt7530
+ 21:          0          0          0          0    mt7530   0  mt7530-0:00
+ 22:          3          0          0          0    mt7530   1  mt7530-0:01
+ 23:          0          0          0          0    mt7530   2  mt7530-0:02
+ 24:          0          0          0          0    mt7530   3  mt7530-0:03
+ 25:          0          0          0          0    mt7530   4  mt7530-0:04
+ 26:          0          0          0          0  mt7621-gpio  18  keys
+ 27:          0          0          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 28:          0          0          0          0  MIPS GIC  26  1e004000.crypto
+ 29:    1651091          0          0          0  MIPS GIC  32  mt7915e
+ERR:       4832
+--------------------------------------
+--------------------------------------
+Iteration 7 fe80::c64b:d1ff:fec1:59%br-lan 
+wlan0-ap  ESSID: "LibreMesh.org"
+          Access Point: C4:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-apname ESSID: "LibreMesh.org/LiMe-10194f"
+          Access Point: C6:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-mesh ESSID: "LiMe"
+          Access Point: C2:4B:D1:C0:00:6D
+          Mode: Mesh Point  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1-ap  ESSID: "LibremeshAP"
+          Access Point: C4:4B:D1:C1:00:6D
+          Mode: Master  Channel: 48 (5.240 GHz)  HT Mode: HE80
+          Center Channel 1: 42 2: unknown
+          Tx-Power: 8 dBm  Link Quality: 64/70
+          Signal: -46 dBm  Noise: unknown
+          Bit Rate: 1134.2 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  1300 ms ago
+	RX: 24.0 MBit/s                                91472 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   2282072 Pkts.
+	expected throughput: unknown
+
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%br-lan () port 0 AF_INET6 : demo
+Interim result:  342.05 10^6bits/s over 1.009 seconds ending at 1744829069.000
+Interim result:  319.23 10^6bits/s over 1.072 seconds ending at 1744829070.000
+Interim result:  375.60 10^6bits/s over 1.005 seconds ending at 1744829071.000
+Interim result:  332.41 10^6bits/s over 1.130 seconds ending at 1744829072.000
+Interim result:  359.13 10^6bits/s over 1.014 seconds ending at 1744829073.000
+Interim result:  359.00 10^6bits/s over 1.000 seconds ending at 1744829074.000
+Interim result:  354.58 10^6bits/s over 1.012 seconds ending at 1744829075.000
+Interim result:  362.73 10^6bits/s over 1.000 seconds ending at 1744829076.000
+Interim result:  315.45 10^6bits/s over 1.150 seconds ending at 1744829077.000
+Interim result:  365.71 10^6bits/s over 0.609 seconds ending at 1744829078.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.01       346.85   64.05    36.86    60.508  34.825 
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  20 ms ago
+	RX: 1200.9 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 0, HE-DCM 0    102421 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   2586985 Pkts.
+	expected throughput: unknown
+
+Station c4:4b:d1:c1:00:59 (on wlan1-ap)
+	inactive time:	30 ms
+	rx bytes:	8838224
+	rx packets:	102421
+	tx bytes:	3901467579
+	tx packets:	2586985
+	tx retries:	0
+	tx failed:	0
+	rx drop misc:	0
+	signal:  	-46 [-47, -51] dBm
+	signal avg:	-46 [-47, -50] dBm
+	tx bitrate:	1134.2 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 1 HE-DCM 0
+	tx duration:	67660599 us
+	rx bitrate:	1200.9 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 0 HE-DCM 0
+	rx duration:	8104572 us
+	last ack signal:-46 dBm
+	avg ack signal:	-45 dBm
+	airtime weight: 256
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	long
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	784 seconds
+	associated at [boottime]:	9409.304s
+	associated at:	1744828294486 ms
+	current time:	1744829078393 ms
+           CPU0       CPU1       CPU2       CPU3       
+  8:     332195     327139     329877     331387  MIPS GIC Local   1  timer
+  9:     471501          0          0          0  MIPS GIC  63  IPI call
+ 10:          0     830651          0          0  MIPS GIC  64  IPI call
+ 11:          0          0     784411          0  MIPS GIC  65  IPI call
+ 12:          0          0          0     957284  MIPS GIC  66  IPI call
+ 13:      11302          0          0          0  MIPS GIC  67  IPI resched
+ 14:          0      10873          0          0  MIPS GIC  68  IPI resched
+ 15:          0          0      13290          0  MIPS GIC  69  IPI resched
+ 16:          0          0          0      37149  MIPS GIC  70  IPI resched
+ 17:          0          0          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 18:         12          0          0          0  MIPS GIC  33  ttyS0
+ 19:      75735          0          0          0  MIPS GIC  10  1e100000.ethernet
+ 20:          3          0          0          0  MIPS GIC  30  mt7530
+ 21:          0          0          0          0    mt7530   0  mt7530-0:00
+ 22:          3          0          0          0    mt7530   1  mt7530-0:01
+ 23:          0          0          0          0    mt7530   2  mt7530-0:02
+ 24:          0          0          0          0    mt7530   3  mt7530-0:03
+ 25:          0          0          0          0    mt7530   4  mt7530-0:04
+ 26:          0          0          0          0  mt7621-gpio  18  keys
+ 27:          0          0          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 28:          0          0          0          0  MIPS GIC  26  1e004000.crypto
+ 29:    1664816          0          0          0  MIPS GIC  32  mt7915e
+ERR:       4867
+--------------------------------------
+--------------------------------------
+Iteration 8 fe80::c64b:d1ff:fec1:59%br-lan 
+wlan0-ap  ESSID: "LibreMesh.org"
+          Access Point: C4:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-apname ESSID: "LibreMesh.org/LiMe-10194f"
+          Access Point: C6:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-mesh ESSID: "LiMe"
+          Access Point: C2:4B:D1:C0:00:6D
+          Mode: Mesh Point  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1-ap  ESSID: "LibremeshAP"
+          Access Point: C4:4B:D1:C1:00:6D
+          Mode: Master  Channel: 48 (5.240 GHz)  HT Mode: HE80
+          Center Channel 1: 42 2: unknown
+          Tx-Power: 8 dBm  Link Quality: 64/70
+          Signal: -46 dBm  Noise: unknown
+          Bit Rate: 1134.2 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  1310 ms ago
+	RX: 24.0 MBit/s                               102421 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   2586985 Pkts.
+	expected throughput: unknown
+
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%br-lan () port 0 AF_INET6 : demo
+Interim result:  334.19 10^6bits/s over 1.001 seconds ending at 1744829080.000
+Interim result:  356.47 10^6bits/s over 1.001 seconds ending at 1744829081.000
+Interim result:  354.35 10^6bits/s over 1.005 seconds ending at 1744829082.000
+Interim result:  364.53 10^6bits/s over 1.000 seconds ending at 1744829083.000
+Interim result:  345.11 10^6bits/s over 1.056 seconds ending at 1744829084.000
+Interim result:  365.99 10^6bits/s over 1.001 seconds ending at 1744829085.000
+Interim result:  346.22 10^6bits/s over 1.057 seconds ending at 1744829086.000
+Interim result:  350.22 10^6bits/s over 1.000 seconds ending at 1744829087.000
+Interim result:  343.17 10^6bits/s over 1.020 seconds ending at 1744829088.000
+Interim result:  347.81 10^6bits/s over 0.859 seconds ending at 1744829089.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.01       350.59   61.53    36.90    57.514  34.487 
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  10 ms ago
+	RX: 1200.9 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 0, HE-DCM 0    114319 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   2895229 Pkts.
+	expected throughput: unknown
+
+Station c4:4b:d1:c1:00:59 (on wlan1-ap)
+	inactive time:	30 ms
+	rx bytes:	9862780
+	rx packets:	114319
+	tx bytes:	4366478611
+	tx packets:	2895229
+	tx retries:	0
+	tx failed:	0
+	rx drop misc:	0
+	signal:  	-46 [-47, -51] dBm
+	signal avg:	-46 [-47, -50] dBm
+	tx bitrate:	1134.2 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 1 HE-DCM 0
+	tx duration:	75277015 us
+	rx bitrate:	1200.9 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 0 HE-DCM 0
+	rx duration:	8998468 us
+	last ack signal:-46 dBm
+	avg ack signal:	-45 dBm
+	airtime weight: 256
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	long
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	795 seconds
+	associated at [boottime]:	9409.304s
+	associated at:	1744828294486 ms
+	current time:	1744829089770 ms
+           CPU0       CPU1       CPU2       CPU3       
+  8:     333262     328148     330946     332287  MIPS GIC Local   1  timer
+  9:     472093          0          0          0  MIPS GIC  63  IPI call
+ 10:          0     834119          0          0  MIPS GIC  64  IPI call
+ 11:          0          0     794923          0  MIPS GIC  65  IPI call
+ 12:          0          0          0     977981  MIPS GIC  66  IPI call
+ 13:      11313          0          0          0  MIPS GIC  67  IPI resched
+ 14:          0      10902          0          0  MIPS GIC  68  IPI resched
+ 15:          0          0      13379          0  MIPS GIC  69  IPI resched
+ 16:          0          0          0      37637  MIPS GIC  70  IPI resched
+ 17:          0          0          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 18:         12          0          0          0  MIPS GIC  33  ttyS0
+ 19:      75782          0          0          0  MIPS GIC  10  1e100000.ethernet
+ 20:          3          0          0          0  MIPS GIC  30  mt7530
+ 21:          0          0          0          0    mt7530   0  mt7530-0:00
+ 22:          3          0          0          0    mt7530   1  mt7530-0:01
+ 23:          0          0          0          0    mt7530   2  mt7530-0:02
+ 24:          0          0          0          0    mt7530   3  mt7530-0:03
+ 25:          0          0          0          0    mt7530   4  mt7530-0:04
+ 26:          0          0          0          0  mt7621-gpio  18  keys
+ 27:          0          0          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 28:          0          0          0          0  MIPS GIC  26  1e004000.crypto
+ 29:    1679058          0          0          0  MIPS GIC  32  mt7915e
+ERR:       4910
+--------------------------------------
+--------------------------------------
+Iteration 9 fe80::c64b:d1ff:fec1:59%br-lan 
+wlan0-ap  ESSID: "LibreMesh.org"
+          Access Point: C4:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-apname ESSID: "LibreMesh.org/LiMe-10194f"
+          Access Point: C6:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-mesh ESSID: "LiMe"
+          Access Point: C2:4B:D1:C0:00:6D
+          Mode: Mesh Point  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1-ap  ESSID: "LibremeshAP"
+          Access Point: C4:4B:D1:C1:00:6D
+          Mode: Master  Channel: 48 (5.240 GHz)  HT Mode: HE80
+          Center Channel 1: 42 2: unknown
+          Tx-Power: 8 dBm  Link Quality: 64/70
+          Signal: -46 dBm  Noise: unknown
+          Bit Rate: 1134.2 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  1320 ms ago
+	RX: 24.0 MBit/s                               114319 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   2895229 Pkts.
+	expected throughput: unknown
+
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%br-lan () port 0 AF_INET6 : demo
+Interim result:  335.24 10^6bits/s over 1.001 seconds ending at 1744829092.000
+Interim result:  354.03 10^6bits/s over 1.001 seconds ending at 1744829093.000
+Interim result:  364.55 10^6bits/s over 1.000 seconds ending at 1744829094.000
+Interim result:  350.41 10^6bits/s over 1.040 seconds ending at 1744829095.000
+Interim result:  365.08 10^6bits/s over 1.001 seconds ending at 1744829096.000
+Interim result:  370.68 10^6bits/s over 1.000 seconds ending at 1744829097.000
+Interim result:  290.49 10^6bits/s over 1.276 seconds ending at 1744829098.000
+Interim result:  328.19 10^6bits/s over 1.001 seconds ending at 1744829099.000
+Interim result:  356.38 10^6bits/s over 1.001 seconds ending at 1744829100.000
+Interim result:  335.30 10^6bits/s over 0.681 seconds ending at 1744829101.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.01       343.65   63.11    37.32    60.177  35.586 
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  10 ms ago
+	RX: 1200.9 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 0, HE-DCM 0    125747 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   3197421 Pkts.
+	expected throughput: unknown
+
+Station c4:4b:d1:c1:00:59 (on wlan1-ap)
+	inactive time:	30 ms
+	rx bytes:	10846980
+	rx packets:	125747
+	tx bytes:	4822334803
+	tx packets:	3197421
+	tx retries:	0
+	tx failed:	0
+	rx drop misc:	0
+	signal:  	-46 [-47, -51] dBm
+	signal avg:	-46 [-47, -51] dBm
+	tx bitrate:	1134.2 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 1 HE-DCM 0
+	tx duration:	82845312 us
+	rx bitrate:	1200.9 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 0 HE-DCM 0
+	rx duration:	9892176 us
+	last ack signal:-46 dBm
+	avg ack signal:	-46 dBm
+	airtime weight: 256
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	long
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	806 seconds
+	associated at [boottime]:	9409.304s
+	associated at:	1744828294487 ms
+	current time:	1744829101166 ms
+           CPU0       CPU1       CPU2       CPU3       
+  8:     334364     329194     332044     333255  MIPS GIC Local   1  timer
+  9:     472990          0          0          0  MIPS GIC  63  IPI call
+ 10:          0     836900          0          0  MIPS GIC  64  IPI call
+ 11:          0          0     805403          0  MIPS GIC  65  IPI call
+ 12:          0          0          0     997119  MIPS GIC  66  IPI call
+ 13:      11351          0          0          0  MIPS GIC  67  IPI resched
+ 14:          0      10969          0          0  MIPS GIC  68  IPI resched
+ 15:          0          0      13419          0  MIPS GIC  69  IPI resched
+ 16:          0          0          0      38403  MIPS GIC  70  IPI resched
+ 17:          0          0          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 18:         12          0          0          0  MIPS GIC  33  ttyS0
+ 19:      75858          0          0          0  MIPS GIC  10  1e100000.ethernet
+ 20:          3          0          0          0  MIPS GIC  30  mt7530
+ 21:          0          0          0          0    mt7530   0  mt7530-0:00
+ 22:          3          0          0          0    mt7530   1  mt7530-0:01
+ 23:          0          0          0          0    mt7530   2  mt7530-0:02
+ 24:          0          0          0          0    mt7530   3  mt7530-0:03
+ 25:          0          0          0          0    mt7530   4  mt7530-0:04
+ 26:          0          0          0          0  mt7621-gpio  18  keys
+ 27:          0          0          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 28:          0          0          0          0  MIPS GIC  26  1e004000.crypto
+ 29:    1694104          0          0          0  MIPS GIC  32  mt7915e
+ERR:       4949
+--------------------------------------
+--------------------------------------
+Iteration 10 fe80::c64b:d1ff:fec1:59%br-lan 
+wlan0-ap  ESSID: "LibreMesh.org"
+          Access Point: C4:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-apname ESSID: "LibreMesh.org/LiMe-10194f"
+          Access Point: C6:4B:D1:C0:00:6D
+          Mode: Master  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan0-mesh ESSID: "LiMe"
+          Access Point: C2:4B:D1:C0:00:6D
+          Mode: Mesh Point  Channel: 11 (2.462 GHz)  HT Mode: HT20
+          Center Channel 1: 11 2: unknown
+          Tx-Power: 8 dBm  Link Quality: unknown/70
+          Signal: unknown  Noise: unknown
+          Bit Rate: unknown
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ax/b/g/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy0
+
+wlan1-ap  ESSID: "LibremeshAP"
+          Access Point: C4:4B:D1:C1:00:6D
+          Mode: Master  Channel: 48 (5.240 GHz)  HT Mode: HE80
+          Center Channel 1: 42 2: unknown
+          Tx-Power: 8 dBm  Link Quality: 64/70
+          Signal: -46 dBm  Noise: unknown
+          Bit Rate: 1134.2 MBit/s
+          Encryption: none
+          Type: nl80211  HW Mode(s): 802.11ac/ax/n
+          Hardware: 14C3:7915 14C3:7915 [MediaTek MT7915E]
+          TX power offset: none
+          Frequency offset: none
+          Supports VAPs: yes  PHY name: phy1
+
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  1300 ms ago
+	RX: 24.0 MBit/s                               125747 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   3197421 Pkts.
+	expected throughput: unknown
+
+MIGRATED TCP STREAM TEST from ::0 (::) port 0 AF_INET6 to fe80::c64b:d1ff:fec1:59%br-lan () port 0 AF_INET6 : demo
+Interim result:  317.84 10^6bits/s over 1.000 seconds ending at 1744829103.000
+Interim result:  354.19 10^6bits/s over 1.011 seconds ending at 1744829104.000
+Interim result:  333.53 10^6bits/s over 1.062 seconds ending at 1744829105.000
+Interim result:  354.24 10^6bits/s over 1.000 seconds ending at 1744829106.000
+Interim result:  360.69 10^6bits/s over 1.000 seconds ending at 1744829107.000
+Interim result:  334.63 10^6bits/s over 1.078 seconds ending at 1744829108.000
+Interim result:  359.22 10^6bits/s over 1.000 seconds ending at 1744829109.000
+Interim result:  367.64 10^6bits/s over 1.000 seconds ending at 1744829110.000
+Interim result:  328.98 10^6bits/s over 1.117 seconds ending at 1744829111.000
+Interim result:  330.13 10^6bits/s over 0.731 seconds ending at 1744829112.000
+Recv   Send    Send                          Utilization       Service Demand
+Socket Socket  Message  Elapsed              Send     Recv     Send    Recv
+Size   Size    Size     Time     Throughput  local    remote   local   remote
+bytes  bytes   bytes    secs.    10^6bits/s  % S      % S      us/KB   us/KB
+
+131072  16384  16384    10.01       344.00   61.29    34.58    58.387  32.944 
+C4:4B:D1:C1:00:59  -46 dBm / unknown (SNR -46)  10 ms ago
+	RX: 1200.9 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 0, HE-DCM 0    137678 Pkts.
+	TX: 1134.2 MBit/s, HE-MCS 11, 80MHz, HE-NSS 2, HE-GI 1, HE-DCM 0   3499874 Pkts.
+	expected throughput: unknown
+
+Station c4:4b:d1:c1:00:59 (on wlan1-ap)
+	inactive time:	30 ms
+	rx bytes:	11874374
+	rx packets:	137678
+	tx bytes:	5278573889
+	tx packets:	3499874
+	tx retries:	0
+	tx failed:	0
+	rx drop misc:	0
+	signal:  	-46 [-47, -51] dBm
+	signal avg:	-46 [-47, -51] dBm
+	tx bitrate:	1134.2 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 1 HE-DCM 0
+	tx duration:	90410571 us
+	rx bitrate:	1200.9 MBit/s 80MHz HE-MCS 11 HE-NSS 2 HE-GI 0 HE-DCM 0
+	rx duration:	10803327 us
+	last ack signal:-46 dBm
+	avg ack signal:	-45 dBm
+	airtime weight: 256
+	authorized:	yes
+	authenticated:	yes
+	associated:	yes
+	preamble:	long
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
+	DTIM period:	2
+	beacon interval:100
+	short slot time:yes
+	connected time:	818 seconds
+	associated at [boottime]:	9409.304s
+	associated at:	1744828294487 ms
+	current time:	1744829112546 ms
+           CPU0       CPU1       CPU2       CPU3       
+  8:     335456     330235     333105     334191  MIPS GIC Local   1  timer
+  9:     473851          0          0          0  MIPS GIC  63  IPI call
+ 10:          0     838781          0          0  MIPS GIC  64  IPI call
+ 11:          0          0     814958          0  MIPS GIC  65  IPI call
+ 12:          0          0          0    1018309  MIPS GIC  66  IPI call
+ 13:      11368          0          0          0  MIPS GIC  67  IPI resched
+ 14:          0      10986          0          0  MIPS GIC  68  IPI resched
+ 15:          0          0      13574          0  MIPS GIC  69  IPI resched
+ 16:          0          0          0      39173  MIPS GIC  70  IPI resched
+ 17:          0          0          0          0  MIPS GIC  19  1e000600.gpio-bank0, 1e000600.gpio-bank1, 1e000600.gpio-bank2
+ 18:         12          0          0          0  MIPS GIC  33  ttyS0
+ 19:      75915          0          0          0  MIPS GIC  10  1e100000.ethernet
+ 20:          3          0          0          0  MIPS GIC  30  mt7530
+ 21:          0          0          0          0    mt7530   0  mt7530-0:00
+ 22:          3          0          0          0    mt7530   1  mt7530-0:01
+ 23:          0          0          0          0    mt7530   2  mt7530-0:02
+ 24:          0          0          0          0    mt7530   3  mt7530-0:03
+ 25:          0          0          0          0    mt7530   4  mt7530-0:04
+ 26:          0          0          0          0  mt7621-gpio  18  keys
+ 27:          0          0          0          0  MIPS GIC  29  xhci-hcd:usb1
+ 28:          0          0          0          0  MIPS GIC  26  1e004000.crypto
+ 29:    1708708          0          0          0  MIPS GIC  32  mt7915e
+ERR:       4991
+--------------------------------------
+--------------------------------------
