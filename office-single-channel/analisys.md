@@ -1,11 +1,12 @@
 # Performance Comparison: AP-UP Mode vs Other Modes (AP, 802.11s)
 
 **TL;DR:**  
-AP-UP mode shows a significant performance loss compared to AP and Mesh modes.  
-It also generates more driver interrupts during the same test runs.  
-Packet captures shows the same number of beacons in AP-UP and classic AP mode (10 per second).  
-remote_capture_netperf.pcap equivalent files show some estrange sequences witch differ from the same from APU vs classic ap mode. APuP mode appears to have "[TCP ACKed unseen segment]" flags, also shows numerous acknowledgements in sequence from the same device, Primarily Acknowledgement frames are seen, with occasional Clear-to-send frames.
+AP-UP mode shows a significant performance loss compared to AP and Mesh modes.
+It also generates more driver interrupts during the same test runs.
+Packet captures shows the same number of beacons in AP-UP and classic AP mode (10 per second).
+remote_capture_netperf.pcap equivalent files show some estrange sequences witch differ from the same file in classic AP mode. APuP mode appears to have "[TCP ACKed unseen segment]" flags, also shows numerous acknowledgements in sequence from the same device, with occasional Clear-to-send frames. You can find `.pcap` files in the corresponding folders.
 You can find `.pcap` files in the corresponding folders.
+
 
 # Stres tests
 Ten runs of netperf and several commands after and before are summarized for different scenarios. 
