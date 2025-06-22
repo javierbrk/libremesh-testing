@@ -18,6 +18,7 @@ other files where captured using the specific interface mentioned in the file na
 
 
 # interfaces configuration 
+```
 iw phy phy1 interface add mon1 type monitor
 ip link set mon1 up
 
@@ -27,7 +28,7 @@ tcpdump -i mon1 'wlan addr4' -w /tmp/4addr.pcap&
 tcpdump -i mon1 'type mgt' -w /tmp/mgt.pcap&
 tcpdump -i mon1 'type mgt subtype auth' -w /tmp/auth.pcap&
 tcpdump -i mon1 'type mgt subtype assoc-req or type mgt subtype assoc-resp' -w /tmp/assoc.pcap&
-
+```
 # file names
 Associantions where captured with 
 ```
